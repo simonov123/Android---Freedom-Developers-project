@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">AsilApp</string>
+
+    <!--Stringhe per la gestione del Login e della registrazione-->
+    <string name="entry_login_title">ENTRA IN ASILAPP</string>
+    <string name="entry_email">Email</string>
+    <string name="entry_password">Password</string>
+    <string name="entry_password_confirm">Conferma Password</string>
+    <string name="entry_btn_login">ACCEDI</string>
+    <string name="entry_btn_to_register">REGISTRATI AD ASILAPP</string>
+    <string name="entry_empty_mail">Devi inserire la mail</string>
+    <string name="entry_empty_password">Devi inserire la password</string>
+    <string name="entry_login_success">Autenticazione riuscita</string>
+    <string name="entry_login_failed">Autenticazione fallita</string>
+    <string name="entry_register_title">REGISTRATI IN ASILAPP</string>
+    <string name="entry_name">Nome</string>
+    <string name="entry_surname">Cognome</string>
+    <string name="entry_btn_register">REGISTRATI</string>
+    <string name="entry_register_success">Account registrato con successo</string>
+    <string name="entry_register_failed">Impossibile registrare l\u0027account</string>
+    <string name="entry_empty_name">Devi inserire il tuo nome</string>
+    <string name="entry_empty_surname">Devi inserire il tuo cognome</string>
+    <string name="entry_different_password">Le due password devono essere uguali</string>
+    <string name="entry_short_password">La password deve essere di almeno 6 caratteri</string>
+    <string name="entry_maschio">MASCHIO</string>
+    <string name="entry_femmina">FEMMINA</string>
+    <string name="entry_choice_gender">Devi selezionare il tuo sesso</string>
+
 </resources>

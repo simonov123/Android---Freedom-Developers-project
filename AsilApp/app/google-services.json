@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "830853194548",
+    "firebase_url": "https://freedomdev-asilapp-2324-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "freedomdev-asilapp-2324",
+    "storage_bucket": "freedomdev-asilapp-2324.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830853194548:android:725ccbbc2f3f192b727b61",
+        "android_client_info": {
+          "package_name": "it.uniba.dib.sms232412"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2mWyvXnw1wlcJy-CbRLvJcCUnU6VSqlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
