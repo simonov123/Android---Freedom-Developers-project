@@ -37,11 +37,14 @@
         android:theme="@style/Theme.AsilApp" >
         <activity
             android:name="it.uniba.dib.sms232412.MainActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AsilApp" />
         <activity
-            android:name="it.uniba.dib.sms232412.EntryActivity"
+            android:name="it.uniba.dib.sms232412.autentication.EntryActivity"
             android:exported="true"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AsilApp" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

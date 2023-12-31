@@ -26,4 +26,72 @@
     <string name="entry_femmina">FEMMINA</string>
     <string name="entry_choice_gender">Devi selezionare il tuo sesso</string>
 
+    <!--Stringhe per il menù di opzioni-->
+    <string name="option_menu_logout">Logout</string>
+    <string name="option_menu_logout_confirm">Logout effettuato con successo</string>
+    <string name="option_menu_delete_account">Elimina Account</string>
+    <string name="option_menu_delete_account_title">Conferma eliminazione</string>
+    <string name="option_menu_delete_account_msg">Sei sicuro di voler eliminare il tuo account? Se procedi l\u0027azione sarà irreversibile</string>
+    <string name="option_menu_yes">Sì</string>
+    <string name="option_menu_no">No</string>
+    <string name="option_menu_delete_success">Account eliminato con successo</string>
+    <string name="option_menu_delete_failed">Impossibile eliminare l\u0027account</string>
+
+    <!--Stringhe per il main pagerview-->
+    <string name="pager_tab1">Anagrafica</string>
+    <string name="pager_tab2">Scelta 2</string>
+    <string name="pager_tab3">Spese</string>
+
+    <!--Stringhe per la gestione delle spese-->
+    <string name="spese_content_fab_add">AGGIUNGI SPESA</string>
+    <string name="spese_content_fab_calculate">CALCOLA SPESA</string>
+    <string name="spese_aggiungi_spesa_titolo">Aggiungi una nuova spesa</string>
+    <string-array name="spese_lista_tipologie">
+        <item>Farmaci</item>
+        <item>Alimentare</item>
+        <item>Abbigliamento</item>
+        <item>Oggetti per casa</item>
+        <item>Libri</item>
+        <item>Tecnologia</item>
+        <item>Svago</item>
+    </string-array>
+    <string name="spese_data_selezionata">Data: %s</string>
+    <string name="spese_data_btn_content">Seleziona data</string>
+    <string name="spese_costo_euro">Costo (€)</string>
+    <string name="spese_aggiunta_successo">Spesa aggiunta con successo</string>
+    <string name="spese_aggiunta_fallimento">Impossibile aggiungere spesa</string>
+    <string name="spese_calcola_spese_titolo">Calcola le tue spese</string>
+    <string name="spese_calcola_spese_from">Da: </string>
+    <string name="spese_calcola_spese_to">A: </string>
+    <string-array name="spese_lista_tipologie_piu_tutto">
+        <item>Tutto</item>
+        <item>Farmaci</item>
+        <item>Alimentare</item>
+        <item>Abbigliamento</item>
+        <item>Oggetti per casa</item>
+        <item>Libri</item>
+        <item>Tecnologia</item>
+        <item>Svago</item>
+    </string-array>
+    <string name="spese_alert_inserire_costo">Devi inserire un costo</string>
+    <string name="spese_seleziona_ogni_data">Seleziona tutte le date</string>
+    <string name="spese_risultato_calcolo_spesa">Spesa totale: %.2f €</string>
+    <string name="spese_lista_vuota_msg">NON HAI SPESE REGISTRATE</string>
+    <string name="spese_lista_non_vuota_msg">ELENCO SPESE REGISTRATE</string>
+    <string name="spese_delete_btn_content">Elimina spesa</string>
+    <string name="spese_delete_spesa">Cancella spesa</string>
+    <string name="spese_elemento_lista_data">Data: %s</string>
+    <string name="spese_elemento_lista_tipo">Tipo: %s</string>
+    <string name="spese_elemento_lista_costo">Costo: %.2f €</string>
+    <string name="spese_delete_spesa_titolo">Conferma eliminazione</string>
+    <string name="spese_delete_spesa_content">Sei sicuro di voler eliminare la spesa?</string>
+
+    <!--Stringhe per l'anagrafica-->
+    <string name="anagrafica_mail">\u0020 E-mail: \u0020</string>
+    <string name="anagrafica_name">\u0020 Nome: \u0020</string>
+    <string name="anagrafica_surname">\u0020 Cognome: \u0020</string>
+    <string name="anagrafica_sesso">\u0020 Sesso: \u0020</string>
+    <string name="anagrafica_maschio">Maschio</string>
+    <string name="anagrafica_femmina">Femmina</string>
+
 </resources>

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Base.Theme.AsilApp" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.AsilApp" parent="Theme.Material3.DayNight">
         
         
     </style>
+    <style name="Base.Theme.AsilApp.Entry" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.AsilApp" parent="Base.Theme.AsilApp"/>
 </resources>

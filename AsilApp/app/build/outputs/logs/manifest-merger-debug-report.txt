@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:2:1-35:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Michele\.gradle\caches\transforms-3\e4e797fd9ee0c5e7cbd012fac2eda3cc\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Michele\.gradle\caches\transforms-3\7c5e9487eafeddafd1c9ef72dc6c88b9\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Michele\.gradle\caches\transforms-3\fd30bb2c2cd9f328f730040756044591\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -13,12 +13,12 @@ MERGED from [com.google.firebase:firebase-core:21.1.1] C:\Users\Michele\.gradle\
 MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\Michele\.gradle\caches\transforms-3\55853e58e26258089bcf51e5c616a0a6\transformed\firebase-database-ktx-20.3.0\AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\Michele\.gradle\caches\transforms-3\fc574f87114cbe6c86b51ac994ea6de6\transformed\firebase-database-20.3.0\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\Michele\.gradle\caches\transforms-3\c030584c741ea046776321a2db359a09\transformed\firebase-analytics-21.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Michele\.gradle\caches\transforms-3\dd1a720e45b98dcc552594f463313026\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Michele\.gradle\caches\transforms-3\eef9c5019df646985251551905cd3385\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:17:1-43:12
 MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\Michele\.gradle\caches\transforms-3\942db195b642f787e37f77bb99a4795c\transformed\firebase-installations-17.2.0\AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Michele\.gradle\caches\transforms-3\1ab5b2d5f790d329a5a6a3a7afc860df\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Michele\.gradle\caches\transforms-3\f6ff379c743b34fab0b0495e49225677\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\Michele\.gradle\caches\transforms-3\e3c2b16efa8f314dbf42ec25120975ad\transformed\firebase-common-20.4.2\AndroidManifest.xml:15:1-41:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Michele\.gradle\caches\transforms-3\dd1a720e45b98dcc552594f463313026\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Michele\.gradle\caches\transforms-3\bd69ba75c5966f114db2a4c9da7a98c3\transformed\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\Michele\.gradle\caches\transforms-3\d594adeb2e774fd534738beae88993b4\transformed\recaptcha-18.1.2\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\Michele\.gradle\caches\transforms-3\68555d27e65abf7a24fbd708c639e8ba\transformed\integrity-1.1.0\AndroidManifest.xml:2:1-7:12
@@ -40,12 +40,12 @@ MERGED from [androidx.transition:transition:1.2.0] C:\Users\Michele\.gradle\cach
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Michele\.gradle\caches\transforms-3\92ec0bc6de5415b9aa210ee4d467ad13\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Michele\.gradle\caches\transforms-3\067d5ba922bee89f0db5e08b989fcf55\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\Michele\.gradle\caches\transforms-3\8ca831e9555c48354b59409f170c9f8b\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Michele\.gradle\caches\transforms-3\f74dca7d4ecc4ed8fa17551adf32193b\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Michele\.gradle\caches\transforms-3\fabd9de3e8286547bb6636f1cfe2d602\transformed\core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Michele\.gradle\caches\transforms-3\48bf208ff59147d7083dcb6d05383839\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Michele\.gradle\caches\transforms-3\637b5f67cd3842f5905f89b5a259de16\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Michele\.gradle\caches\transforms-3\9163c1991cc1860d792720dea5df7cbc\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Michele\.gradle\caches\transforms-3\96fdc2dc9f0192eef47d4f4edd47b295\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Michele\.gradle\caches\transforms-3\f74dca7d4ecc4ed8fa17551adf32193b\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\Michele\.gradle\caches\transforms-3\ffa89b5fda7cd40dae9c5bdf42c833cf\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.9.0] C:\Users\Michele\.gradle\caches\transforms-3\8b339765c819ec29f139621ec4f214c8\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Michele\.gradle\caches\transforms-3\5b4c65412fcb9ba0524722cf01266401\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
@@ -107,8 +107,8 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:
 	android:name
 		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:7:5-30:19
-INJECTED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:7:5-30:19
+ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:7:5-33:19
+INJECTED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:7:5-33:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Michele\.gradle\caches\transforms-3\e4e797fd9ee0c5e7cbd012fac2eda3cc\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Michele\.gradle\caches\transforms-3\e4e797fd9ee0c5e7cbd012fac2eda3cc\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Michele\.gradle\caches\transforms-3\7c5e9487eafeddafd1c9ef72dc6c88b9\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -194,29 +194,35 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Michele\.gradle\ca
 	android:dataExtractionRules
 		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:9:9-65
 activity#it.uniba.dib.sms232412.MainActivity
-ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:17:9-19:40
+ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:17:9-21:40
+	android:screenOrientation
+		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:19:13-49
 	android:exported
-		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:19:13-37
+		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:21:13-37
+	android:theme
+		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:20:13-54
 	android:name
 		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:18:13-41
-activity#it.uniba.dib.sms232412.EntryActivity
-ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:20:9-29:20
+activity#it.uniba.dib.sms232412.autentication.EntryActivity
+ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:22:9-32:20
 	android:screenOrientation
-		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:22:13-49
+		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:24:13-49
 	android:exported
-		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:23:13-36
+		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:26:13-36
+	android:theme
+		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:25:13-54
 	android:name
-		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:21:13-42
+		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:23:13-56
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:24:13-28:29
+ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:27:17-77
+ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:30:27-74
 uses-sdk
 INJECTED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml
@@ -239,6 +245,8 @@ MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\Michele\.gra
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\Michele\.gradle\caches\transforms-3\fc574f87114cbe6c86b51ac994ea6de6\transformed\firebase-database-20.3.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\Michele\.gradle\caches\transforms-3\c030584c741ea046776321a2db359a09\transformed\firebase-analytics-21.5.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\Michele\.gradle\caches\transforms-3\c030584c741ea046776321a2db359a09\transformed\firebase-analytics-21.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Michele\.gradle\caches\transforms-3\dd1a720e45b98dcc552594f463313026\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Michele\.gradle\caches\transforms-3\dd1a720e45b98dcc552594f463313026\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Michele\.gradle\caches\transforms-3\eef9c5019df646985251551905cd3385\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Michele\.gradle\caches\transforms-3\eef9c5019df646985251551905cd3385\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\Michele\.gradle\caches\transforms-3\942db195b642f787e37f77bb99a4795c\transformed\firebase-installations-17.2.0\AndroidManifest.xml:5:5-44
@@ -249,8 +257,6 @@ MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Michele\
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Michele\.gradle\caches\transforms-3\f6ff379c743b34fab0b0495e49225677\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\Michele\.gradle\caches\transforms-3\e3c2b16efa8f314dbf42ec25120975ad\transformed\firebase-common-20.4.2\AndroidManifest.xml:19:5-44
 MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\Michele\.gradle\caches\transforms-3\e3c2b16efa8f314dbf42ec25120975ad\transformed\firebase-common-20.4.2\AndroidManifest.xml:19:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Michele\.gradle\caches\transforms-3\dd1a720e45b98dcc552594f463313026\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Michele\.gradle\caches\transforms-3\dd1a720e45b98dcc552594f463313026\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Michele\.gradle\caches\transforms-3\bd69ba75c5966f114db2a4c9da7a98c3\transformed\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Michele\.gradle\caches\transforms-3\bd69ba75c5966f114db2a4c9da7a98c3\transformed\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\Michele\.gradle\caches\transforms-3\d594adeb2e774fd534738beae88993b4\transformed\recaptcha-18.1.2\AndroidManifest.xml:5:5-44
@@ -293,6 +299,8 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Michele\.gra
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Michele\.gradle\caches\transforms-3\067d5ba922bee89f0db5e08b989fcf55\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\Michele\.gradle\caches\transforms-3\8ca831e9555c48354b59409f170c9f8b\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\Michele\.gradle\caches\transforms-3\8ca831e9555c48354b59409f170c9f8b\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Michele\.gradle\caches\transforms-3\f74dca7d4ecc4ed8fa17551adf32193b\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Michele\.gradle\caches\transforms-3\f74dca7d4ecc4ed8fa17551adf32193b\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Michele\.gradle\caches\transforms-3\fabd9de3e8286547bb6636f1cfe2d602\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Michele\.gradle\caches\transforms-3\fabd9de3e8286547bb6636f1cfe2d602\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Michele\.gradle\caches\transforms-3\48bf208ff59147d7083dcb6d05383839\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
@@ -303,8 +311,6 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Michele\.
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Michele\.gradle\caches\transforms-3\9163c1991cc1860d792720dea5df7cbc\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Michele\.gradle\caches\transforms-3\96fdc2dc9f0192eef47d4f4edd47b295\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Michele\.gradle\caches\transforms-3\96fdc2dc9f0192eef47d4f4edd47b295\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Michele\.gradle\caches\transforms-3\f74dca7d4ecc4ed8fa17551adf32193b\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Michele\.gradle\caches\transforms-3\f74dca7d4ecc4ed8fa17551adf32193b\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\Michele\.gradle\caches\transforms-3\ffa89b5fda7cd40dae9c5bdf42c833cf\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\Michele\.gradle\caches\transforms-3\ffa89b5fda7cd40dae9c5bdf42c833cf\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.9.0] C:\Users\Michele\.gradle\caches\transforms-3\8b339765c819ec29f139621ec4f214c8\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
