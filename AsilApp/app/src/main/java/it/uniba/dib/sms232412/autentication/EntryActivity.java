@@ -3,10 +3,12 @@ package it.uniba.dib.sms232412.autentication;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -29,6 +31,7 @@ public class EntryActivity extends AppCompatActivity implements LoginFragment.Ch
         if(myBar != null){
             myBar.setDisplayHomeAsUpEnabled(true);
             myBar.setHomeButtonEnabled(true);
+            myBar.setBackgroundDrawable(new ColorDrawable(ContextCompat.getColor(this, R.color.app_bar_color)));
         }
         mAuth = FirebaseAuth.getInstance();
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
@@ -61,7 +64,8 @@ public class EntryActivity extends AppCompatActivity implements LoginFragment.Ch
             FragmentManager fm = getSupportFragmentManager();
             fm.popBackStack();
             fm.executePendingTransactions();
+            return true;
         }
-        return true;
+        return false;
     }
 }

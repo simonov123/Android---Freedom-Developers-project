@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="regioni_italiane">
+        <item>Abruzzo</item>
+        <item>Basilicata</item>
+        <item>Calabria</item>
+        <item>Campania</item>
+        <item>Emilia Romagna</item>
+        <item>Friuli Venezia Giulia</item>
+        <item>Lazio</item>
+        <item>Liguria</item>
+        <item>Lombardia</item>
+        <item>Marche</item>
+        <item>Molise</item>
+        <item>Piemonte</item>
+        <item>Puglia</item>
+        <item>Sardegna</item>
+        <item>Sicilia</item>
+        <item>Toscana</item>
+        <item>Trentino Alto Adige</item>
+        <item>Umbria</item>
+        <item>Val D\u0027Aosta</item>
+        <item>Veneto</item>
+    </string-array>
     <string-array name="spese_lista_tipologie">
         <item>Farmaci</item>
         <item>Alimentare</item>
@@ -19,19 +41,40 @@
         <item>Tecnologia</item>
         <item>Svago</item>
     </string-array>
+    <color name="app_bar_color">#FFBBDDEE</color>
     <color name="black">#FF000000</color>
-    <color name="color_panel">#FFEEEEEE</color>
+    <color name="color_list">#FFF7F7F7</color>
+    <color name="color_panel">#FFEEEEFF</color>
     <color name="cyan">#FF00FFFF</color>
+    <color name="green">#FF00FF00</color>
     <color name="grey">#FFAAAAAA</color>
+    <color name="primary">#FF1111FF</color>
+    <color name="primary_variant_dark">#FF000099</color>
+    <color name="red">#FFFF0000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFFFDD00</color>
     <dimen name="fab_elevation_pressed">20dp</dimen>
     <dimen name="fab_elevation_resting">8dp</dimen>
     <dimen name="image_button_size">60dp</dimen>
     <dimen name="normal_text_size">20sp</dimen>
+    <dimen name="panel_elevation">4dp</dimen>
+    <string name="admin_accetta_richiesta">Conferma richiesta</string>
+    <string name="admin_list_request_empty">Non ci sono richieste per registrarsi come personale sanitario</string>
+    <string name="admin_list_request_title">Elenco delle richieste per registrarsi come personale sanitario</string>
+    <string name="admin_page_title">Pagina Amministratore</string>
+    <string name="admin_rifiuta_richiesta">Rifiuta richiesta</string>
+    <string name="admin_single_request_codiceFiscale">CF: %s</string>
+    <string name="admin_single_request_email">Email: %s</string>
+    <string name="admin_single_request_istituzione">Istituzione: %s</string>
+    <string name="admin_single_request_nomeCompleto">Nome: %s</string>
+    <string name="admin_single_request_professione">Professione: %s</string>
+    <string name="admin_single_request_regione">Regione: %s</string>
     <string name="anagrafica_femmina">Femmina</string>
     <string name="anagrafica_mail">\u0020 E-mail: \u0020</string>
     <string name="anagrafica_maschio">Maschio</string>
     <string name="anagrafica_name">\u0020 Nome: \u0020</string>
+    <string name="anagrafica_regione">\u0020 Regione: \u0020</string>
+    <string name="anagrafica_regione_non_specificata">Non specificata</string>
     <string name="anagrafica_sesso">\u0020 Sesso: \u0020</string>
     <string name="anagrafica_surname">\u0020 Cognome: \u0020</string>
     <string name="app_name">AsilApp</string>
@@ -64,6 +107,8 @@
     <string name="google_app_id" translatable="false">1:830853194548:android:725ccbbc2f3f192b727b61</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyArCosAyyUE_Ha1fORIUzlKOyzzwP93qkI</string>
     <string name="google_storage_bucket" translatable="false">freedomdev-asilapp-2324.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="option_menu_admin_page">Pagina Amministratore</string>
     <string name="option_menu_delete_account">Elimina Account</string>
     <string name="option_menu_delete_account_msg">Sei sicuro di voler eliminare il tuo account? Se procedi l\u0027azione sarà irreversibile</string>
     <string name="option_menu_delete_account_title">Conferma eliminazione</string>
@@ -72,11 +117,50 @@
     <string name="option_menu_logout">Logout</string>
     <string name="option_menu_logout_confirm">Logout effettuato con successo</string>
     <string name="option_menu_no">No</string>
+    <string name="option_menu_update">AGGIORNA</string>
+    <string name="option_menu_update_completed">Profilo aggiornato</string>
     <string name="option_menu_yes">Sì</string>
-    <string name="pager_tab1">Anagrafica</string>
-    <string name="pager_tab2">Scelta 2</string>
-    <string name="pager_tab3">Spese</string>
+    <string name="pager_tab1">Profilo</string>
+    <string name="pager_tab2">Malattie</string>
+    <string name="pager_tab3">Esplora</string>
+    <string name="pager_tab4">Spese</string>
+    <string name="permission_ok">Ok</string>
+    <string name="permission_text_rationale_coarse_location">
+        Per poterti fornire informazioni più precise sulla tua zona ci serve conoscere la tua posizione.</string>
+    <string name="permission_title_rationale_coarse_location">Richiesta permesso</string>
     <string name="project_id" translatable="false">freedomdev-asilapp-2324</string>
+    <string name="ps_are_you_doctor_msg">Se procedi ti verranno richiesti altri dati al solo fine di
+        effettuare ulteriori controlli da parte degli amministratori.</string>
+    <string name="ps_are_you_doctor_title">Fai parte personale sanitario?</string>
+    <string name="ps_attiva_visibility_msg">Se selezioni Sì, condividerai con loro i seguenti dati:
+        Nome, Cognome, Email, Professione, Istituzione e Regione.</string>
+    <string name="ps_attiva_visibility_title">Vuoi diventare visibile agli altri utenti?</string>
+    <string name="ps_button_annulla_config">Annulla</string>
+    <string name="ps_button_modify_request_of_register_as_ps">Modifica richiesta registrazione</string>
+    <string name="ps_button_modify_setting_as_ps">Modifica impostazioni come personale sanitario</string>
+    <string name="ps_button_register_as_ps">Registrati come personale sanitario</string>
+    <string name="ps_choice_visibility">Voglio essere visibile dagli altri utenti nella lista del personale</string>
+    <string name="ps_elimina_richiesta">Elimina richiesta</string>
+    <string name="ps_elimina_richiesta_msg">Vuoi eliminare la tua richiesta per registrarti come personale sanitario?</string>
+    <string name="ps_invia_richiesta">Invia richiesta</string>
+    <string name="ps_invia_richiesta_completata_msg">La tua richiesta è stata inoltrata. Quando un
+        amministratore accetterà la tua richiesta, il tuo profilo verrà aggiornato</string>
+    <string name="ps_invia_richiesta_completata_title">Richiesta inviata</string>
+    <string name="ps_invia_richiesta_error_codice_fiscale">Codice fiscale non corretto</string>
+    <string name="ps_invia_richiesta_error_istituzione">Inserire una Istituzione sanitaria</string>
+    <string name="ps_invia_richiesta_error_professione">Inserire una professione</string>
+    <string name="ps_modifica_richiesta_save">Salva modifiche</string>
+    <string name="ps_modifica_status_titolo">Modifica status da personale sanitario</string>
+    <string name="ps_option_search">Cerca personale sanitario</string>
+    <string name="ps_register_codice_fiscale">Codice Fiscale</string>
+    <string name="ps_register_istituzione">Istituzione Sanitaria</string>
+    <string name="ps_register_professione">Professione</string>
+    <string name="ps_register_region_description">Regione\nistituzione:</string>
+    <string name="ps_ricerca_personale_ogni_regione">Cerca in tutte le regioni</string>
+    <string name="ps_ricerca_personale_send_btn">Invia dati al personale sanitario</string>
+    <string name="ps_richiesta_eliminata_confirm">La richiesta è stata eliminata</string>
+    <string name="ps_richiesta_modificata_confirm">Le modifiche sono state salvate</string>
+    <string name="ps_titolo">Personale Sanitario</string>
     <string name="spese_aggiungi_spesa_titolo">Aggiungi una nuova spesa</string>
     <string name="spese_aggiunta_fallimento">Impossibile aggiungere spesa</string>
     <string name="spese_aggiunta_successo">Spesa aggiunta con successo</string>
@@ -103,10 +187,19 @@
     <style name="Base.Theme.AsilApp" parent="Theme.Material3.DayNight">
         
         
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor">@color/primary_variant_dark</item>
+        <item name="android:windowBackground">@color/white</item>
+
     </style>
-    <style name="Base.Theme.AsilApp.Entry" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.AsilApp.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
         
         
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/primary_variant_dark</item>
+        <item name="android:windowBackground">@color/white</item>
+
     </style>
-    <style name="Theme.AsilApp" parent="Base.Theme.AsilApp"/>
 </resources>

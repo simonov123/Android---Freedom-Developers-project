@@ -91,10 +91,14 @@ public class RegisterFragment extends Fragment {
                         if(task.isSuccessful()){
                             FirebaseUser user = mAuth.getCurrentUser();
                             if(user!=null) {
-                                DatabaseReference rootDB = FirebaseDatabase.getInstance().getReference("Utenti").child(user.getUid());
+                                String myUid = user.getUid();
+                                DatabaseReference rootDB = FirebaseDatabase.getInstance().getReference("Utenti").child(myUid);
+                                rootDB.child("uid").setValue(myUid);
                                 rootDB.child("email").setValue(email);
                                 rootDB.child("nome").setValue(nome);
                                 rootDB.child("cognome").setValue(cognome);
+                                rootDB.child("ruolo").setValue("utente");
+                                rootDB.child("update").setValue(false);
                                 if (m_btn.isChecked()) {
                                     rootDB.child("sesso").setValue("M");
                                 } else if (f_btn.isChecked()) {

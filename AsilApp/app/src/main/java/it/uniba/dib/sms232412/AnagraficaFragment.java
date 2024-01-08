@@ -1,5 +1,7 @@
 package it.uniba.dib.sms232412;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -37,6 +39,7 @@ public class AnagraficaFragment extends Fragment {
         TextView textName = view.findViewById(R.id.anagrafica_name);
         TextView textSurname = view.findViewById(R.id.anagrafica_surname);
         TextView textSesso = view.findViewById(R.id.anagrafica_sesso);
+        TextView textRegion = view.findViewById(R.id.anagrafica_regione);
 
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         if(user != null){
@@ -56,6 +59,8 @@ public class AnagraficaFragment extends Fragment {
                             } else {
                                 textSesso.setText(getString(R.string.anagrafica_femmina));
                             }
+                            SharedPreferences shared = getActivity().getSharedPreferences("regione.txt", Context.MODE_PRIVATE);
+                            textRegion.setText(shared.getString("REGIONE", getString(R.string.anagrafica_regione_non_specificata)));
                         }
                     }
                 }

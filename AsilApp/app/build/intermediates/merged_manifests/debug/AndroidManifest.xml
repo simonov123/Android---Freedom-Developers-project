@@ -9,6 +9,8 @@
         android:targetSdkVersion="34" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
@@ -34,7 +36,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.AsilApp" >
+        android:theme="@style/Base.Theme.AsilApp" >
+        <activity
+            android:name="it.uniba.dib.sms232412.adminSection.AdminActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AsilApp" />
+        <activity
+            android:name="it.uniba.dib.sms232412.personaleSanitario.PersonaleSanitarioActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AsilApp" />
         <activity
             android:name="it.uniba.dib.sms232412.MainActivity"
             android:exported="false"

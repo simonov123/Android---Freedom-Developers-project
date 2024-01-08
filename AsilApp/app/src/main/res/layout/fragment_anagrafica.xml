@@ -9,7 +9,7 @@
         android:id="@+id/container_anagrafica_mail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:elevation="4dp"
+        android:elevation="@dimen/panel_elevation"
         android:background="@color/color_panel"
         android:orientation="horizontal"
         android:layout_marginTop="20dp"
@@ -36,7 +36,7 @@
         android:id="@+id/container_anagrafica_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:elevation="4dp"
+        android:elevation="@dimen/panel_elevation"
         android:background="@color/color_panel"
         android:orientation="horizontal"
         android:layout_below="@+id/container_anagrafica_mail"
@@ -64,7 +64,7 @@
         android:id="@+id/container_anagrafica_surname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:elevation="4dp"
+        android:elevation="@dimen/panel_elevation"
         android:background="@color/color_panel"
         android:orientation="horizontal"
         android:layout_below="@+id/container_anagrafica_name"
@@ -92,7 +92,7 @@
         android:id="@+id/container_anagrafica_sesso"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:elevation="4dp"
+        android:elevation="@dimen/panel_elevation"
         android:background="@color/color_panel"
         android:orientation="horizontal"
         android:layout_below="@+id/container_anagrafica_surname"
@@ -110,6 +110,34 @@
 
         <TextView
             android:id="@+id/anagrafica_sesso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/normal_text_size"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_anagrafica_regione"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/panel_elevation"
+        android:background="@color/color_panel"
+        android:orientation="horizontal"
+        android:layout_below="@+id/container_anagrafica_surname"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/anagrafica_regione"
+            android:textStyle="bold"
+            android:textSize="@dimen/normal_text_size"/>
+
+        <TextView
+            android:id="@+id/anagrafica_regione"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/normal_text_size"/>

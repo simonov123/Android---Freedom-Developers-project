@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".personaleSanitario.PersonaleSanitarioListaFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="54dp"
+        android:elevation="8dp"
+        android:background="@color/cyan">
+
+        <ImageView
+            android:id="@+id/search_icon"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_search_logo"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/container_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toEndOf="@+id/search_icon">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_search"
+                android:hint="@string/ps_option_search"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/region_search_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ps_ricerca_personale_ogni_regione"
+            android:textSize="@dimen/normal_text_size"
+            android:layout_below="@+id/container_search"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="5dp"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/ps_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="5dp"
+        android:elevation="4dp"
+        android:background="@color/color_list"/>
+
+
+</LinearLayout>

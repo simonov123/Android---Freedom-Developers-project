@@ -39,7 +39,6 @@ import java.util.List;
 import it.uniba.dib.sms232412.R;
 import it.uniba.dib.sms232412.utils.DatePickerFragment;
 import it.uniba.dib.sms232412.utils.DecimalDigitsInputFilter;
-import it.uniba.dib.sms232412.utils.Spesa;
 
 public class GestoreSpesaAddFragment extends Fragment implements DatePickerDialog.OnDateSetListener {
 

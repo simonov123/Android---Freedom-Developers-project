@@ -57,7 +57,7 @@ public class GestoreSpesaFragment extends Fragment implements GestoreSpesaAddFra
             boolean mustCommit = true;
             if(manager != null) {
                 FragmentTransaction ft = manager.beginTransaction();
-                ft.setCustomAnimations(R.anim.anim_enter_from_right, R.anim.anim_exit_to_right);
+                ft.setCustomAnimations(R.anim.spese_anim_enter_from_right, R.anim.spese_anim_exit_to_right);
                 if(fabAddIsPressed){
                     ViewCompat.setElevation(fabAdd, getResources().getDimension(R.dimen.fab_elevation_resting));
                     fabAdd.setImageDrawable(getResources().getDrawable(R.drawable.ic_add_logo));
@@ -66,7 +66,7 @@ public class GestoreSpesaFragment extends Fragment implements GestoreSpesaAddFra
                     if(toRemove != null){
                         FrameLayout frame = view.findViewById(R.id.frame_aggiungi_spese);
                         mustCommit = false;
-                        animationExit(frame, R.anim.anim_exit_to_right, ft, toRemove);
+                        animationExit(frame, R.anim.spese_anim_exit_to_right, ft, toRemove);
                     }
                 } else {
                     ViewCompat.setElevation(fabAdd, getResources().getDimension(R.dimen.fab_elevation_pressed));
@@ -82,7 +82,7 @@ public class GestoreSpesaFragment extends Fragment implements GestoreSpesaAddFra
                     if(toRemove != null){
                         FrameLayout frame = view.findViewById(R.id.frame_calcola_spese);
                         mustCommit = false;
-                        animationExit(frame, R.anim.anim_exit_to_right, ft, toRemove);
+                        animationExit(frame, R.anim.spese_anim_exit_to_right, ft, toRemove);
                     }
                 }
                 if(mustCommit){
@@ -100,7 +100,7 @@ public class GestoreSpesaFragment extends Fragment implements GestoreSpesaAddFra
             boolean mustCommit = true;
             if(manager != null){
                 FragmentTransaction ft = manager.beginTransaction();
-                ft.setCustomAnimations(R.anim.anim_enter_from_right, R.anim.anim_exit_to_right);
+                ft.setCustomAnimations(R.anim.spese_anim_enter_from_right, R.anim.spese_anim_exit_to_right);
                 if(fabCalcolaIsPressed){
                     ViewCompat.setElevation(fabCalcola, getResources().getDimension(R.dimen.fab_elevation_resting));
                     fabCalcola.setImageDrawable(getResources().getDrawable(R.drawable.ic_calculate_logo));
@@ -109,7 +109,7 @@ public class GestoreSpesaFragment extends Fragment implements GestoreSpesaAddFra
                     if(toRemove != null){
                         FrameLayout frame = view.findViewById(R.id.frame_calcola_spese);
                         mustCommit = false;
-                        animationExit(frame, R.anim.anim_exit_to_right, ft, toRemove);
+                        animationExit(frame, R.anim.spese_anim_exit_to_right, ft, toRemove);
                     }
                 } else {
                     ViewCompat.setElevation(fabCalcola, getResources().getDimension(R.dimen.fab_elevation_pressed));
@@ -125,7 +125,7 @@ public class GestoreSpesaFragment extends Fragment implements GestoreSpesaAddFra
                     if(toRemove != null){
                         FrameLayout frame = view.findViewById(R.id.frame_aggiungi_spese);
                         mustCommit = false;
-                        animationExit(frame, R.anim.anim_exit_to_right, ft, toRemove);
+                        animationExit(frame, R.anim.spese_anim_exit_to_right, ft, toRemove);
                     }
                 }
                 if(mustCommit){

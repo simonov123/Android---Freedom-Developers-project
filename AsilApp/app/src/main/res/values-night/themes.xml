@@ -9,6 +9,4 @@
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
-
-    <style name="Theme.AsilApp" parent="Base.Theme.AsilApp" />
 </resources>

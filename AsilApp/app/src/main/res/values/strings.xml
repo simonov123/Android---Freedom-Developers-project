@@ -36,11 +36,15 @@
     <string name="option_menu_no">No</string>
     <string name="option_menu_delete_success">Account eliminato con successo</string>
     <string name="option_menu_delete_failed">Impossibile eliminare l\u0027account</string>
+    <string name="option_menu_admin_page">Pagina Amministratore</string>
+    <string name="option_menu_update">AGGIORNA</string>
+    <string name="option_menu_update_completed">Profilo aggiornato</string>
 
     <!--Stringhe per il main pagerview-->
-    <string name="pager_tab1">Anagrafica</string>
-    <string name="pager_tab2">Scelta 2</string>
-    <string name="pager_tab3">Spese</string>
+    <string name="pager_tab1">Profilo</string>
+    <string name="pager_tab2">Malattie</string>
+    <string name="pager_tab3">Esplora</string>
+    <string name="pager_tab4">Spese</string>
 
     <!--Stringhe per la gestione delle spese-->
     <string name="spese_content_fab_add">AGGIUNGI SPESA</string>
@@ -93,5 +97,86 @@
     <string name="anagrafica_sesso">\u0020 Sesso: \u0020</string>
     <string name="anagrafica_maschio">Maschio</string>
     <string name="anagrafica_femmina">Femmina</string>
+    <string name="anagrafica_regione">\u0020 Regione: \u0020</string>
+    <string name="anagrafica_regione_non_specificata">Non specificata</string>
+
+    <!--Stringhe per la gestione del personale sanitario-->
+    <string name="ps_titolo">Personale Sanitario</string>
+    <string name="ps_option_search">Cerca personale sanitario</string>
+    <string name="ps_button_register_as_ps">Registrati come personale sanitario</string>
+    <string name="ps_are_you_doctor_title">Fai parte personale sanitario?</string>
+    <string name="ps_are_you_doctor_msg">Se procedi ti verranno richiesti altri dati al solo fine di
+        effettuare ulteriori controlli da parte degli amministratori.</string>
+    <string name="ps_button_modify_request_of_register_as_ps">Modifica richiesta registrazione</string>
+    <string name="ps_button_modify_setting_as_ps">Modifica impostazioni come personale sanitario</string>
+    <string name="ps_button_annulla_config">Annulla</string>
+    <string name="ps_register_codice_fiscale">Codice Fiscale</string>
+    <string name="ps_register_professione">Professione</string>
+    <string name="ps_register_istituzione">Istituzione Sanitaria</string>
+    <string name="ps_register_region_description">Regione\nistituzione:</string>
+    <string-array name="regioni_italiane">
+        <item>Abruzzo</item>
+        <item>Basilicata</item>
+        <item>Calabria</item>
+        <item>Campania</item>
+        <item>Emilia Romagna</item>
+        <item>Friuli Venezia Giulia</item>
+        <item>Lazio</item>
+        <item>Liguria</item>
+        <item>Lombardia</item>
+        <item>Marche</item>
+        <item>Molise</item>
+        <item>Piemonte</item>
+        <item>Puglia</item>
+        <item>Sardegna</item>
+        <item>Sicilia</item>
+        <item>Toscana</item>
+        <item>Trentino Alto Adige</item>
+        <item>Umbria</item>
+        <item>Val D\u0027Aosta</item>
+        <item>Veneto</item>
+    </string-array>
+    <string name="ps_choice_visibility">Voglio essere visibile dagli altri utenti nella lista del personale</string>
+    <string name="ps_attiva_visibility_title">Vuoi diventare visibile agli altri utenti?</string>
+    <string name="ps_attiva_visibility_msg">Se selezioni Sì, condividerai con loro i seguenti dati:
+        Nome, Cognome, Email, Professione, Istituzione e Regione.</string>
+    <string name="ps_invia_richiesta">Invia richiesta</string>
+    <string name="ps_invia_richiesta_error_codice_fiscale">Codice fiscale non corretto</string>
+    <string name="ps_invia_richiesta_error_professione">Inserire una professione</string>
+    <string name="ps_invia_richiesta_error_istituzione">Inserire una Istituzione sanitaria</string>
+    <string name="ps_invia_richiesta_completata_title">Richiesta inviata</string>
+    <string name="ps_invia_richiesta_completata_msg">La tua richiesta è stata inoltrata. Quando un
+        amministratore accetterà la tua richiesta, il tuo profilo verrà aggiornato</string>
+    <string name="ps_modifica_richiesta_save">Salva modifiche</string>
+    <string name="ps_richiesta_modificata_confirm">Le modifiche sono state salvate</string>
+    <string name="ps_elimina_richiesta">Elimina richiesta</string>
+    <string name="ps_elimina_richiesta_msg">Vuoi eliminare la tua richiesta per registrarti come personale sanitario?</string>
+    <string name="ps_richiesta_eliminata_confirm">La richiesta è stata eliminata</string>
+    <string name="ps_modifica_status_titolo">Modifica status da personale sanitario</string>
+    <string name="ps_ricerca_personale_ogni_regione">Cerca in tutte le regioni</string>
+    <string name="ps_ricerca_personale_send_btn">Invia dati al personale sanitario</string>
+
+
+    <!--Stringhe per la gestione della pagina admin-->
+    <string name="admin_page_title">Pagina Amministratore</string>
+    <string name="admin_list_request_title">Elenco delle richieste per registrarsi come personale sanitario</string>
+    <string name="admin_list_request_empty">Non ci sono richieste per registrarsi come personale sanitario</string>
+    <string name="admin_single_request_codiceFiscale">CF: %s</string>
+    <string name="admin_single_request_email">Email: %s</string>
+    <string name="admin_single_request_nomeCompleto">Nome: %s</string>
+    <string name="admin_single_request_professione">Professione: %s</string>
+    <string name="admin_single_request_istituzione">Istituzione: %s</string>
+    <string name="admin_single_request_regione">Regione: %s</string>
+    <string name="admin_accetta_richiesta">Conferma richiesta</string>
+    <string name="admin_rifiuta_richiesta">Rifiuta richiesta</string>
+
+    <!--Stringhe per la gestione dei permessi-->
+    <string name="permission_title_rationale_coarse_location">Richiesta permesso</string>
+    <string name="permission_text_rationale_coarse_location">
+        Per poterti fornire informazioni più precise sulla tua zona ci serve conoscere la tua posizione.</string>
+    <string name="permission_ok">Ok</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

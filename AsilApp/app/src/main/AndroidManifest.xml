@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -12,18 +14,28 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AsilApp"
+        android:theme="@style/Base.Theme.AsilApp"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".adminSection.AdminActivity"
+            android:exported="false"
             android:screenOrientation="portrait"
-            android:theme="@style/Base.Theme.AsilApp"
-            android:exported="false" />
+            android:theme="@style/Base.Theme.AsilApp" />
+        <activity
+            android:name=".personaleSanitario.PersonaleSanitarioActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AsilApp" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AsilApp" />
         <activity
             android:name=".autentication.EntryActivity"
+            android:exported="true"
             android:screenOrientation="portrait"
-            android:theme="@style/Base.Theme.AsilApp"
-            android:exported="true">
+            android:theme="@style/Base.Theme.AsilApp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

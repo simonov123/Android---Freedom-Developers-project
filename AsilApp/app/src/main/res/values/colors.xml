@@ -3,6 +3,13 @@
     <color name="black">#FF000000</color>
     <color name="grey">#FFAAAAAA</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFFFDD00</color>
     <color name="cyan">#FF00FFFF</color>
-    <color name="color_panel">#FFEEEEEE</color>
+    <color name="app_bar_color">#FFBBDDEE</color>
+    <color name="primary">#FF1111FF</color>
+    <color name="primary_variant_dark">#FF000099</color>
+    <color name="color_panel">#FFEEEEFF</color>
+    <color name="color_list">#FFF7F7F7</color>
+    <color name="red">#FFFF0000</color>
+    <color name="green">#FF00FF00</color>
 </resources>

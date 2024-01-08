@@ -24,7 +24,6 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.List;
 
 import it.uniba.dib.sms232412.R;
-import it.uniba.dib.sms232412.utils.Spesa;
 
 public class ListaSpeseAdapter extends BaseAdapter {
 

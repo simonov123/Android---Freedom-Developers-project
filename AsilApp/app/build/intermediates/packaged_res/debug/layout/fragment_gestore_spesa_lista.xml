@@ -22,7 +22,7 @@
         android:dividerHeight="5dp"
         android:layout_marginBottom="20dp"
         android:elevation="4dp"
-        android:background="@color/white"/>
+        android:background="@color/color_list"/>
 
 
 </LinearLayout>
