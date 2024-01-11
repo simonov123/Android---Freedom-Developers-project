@@ -1,0 +1,2 @@
+it.uniba.dib.sms232412.test:style/WhiteBackgroundTheme = 0x7f010001
+it.uniba.dib.sms232412.test:style/WhiteBackgroundDialogTheme = 0x7f010000

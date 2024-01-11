@@ -39,6 +39,7 @@
     <string name="option_menu_admin_page">Pagina Amministratore</string>
     <string name="option_menu_update">AGGIORNA</string>
     <string name="option_menu_update_completed">Profilo aggiornato</string>
+    <string name="option_menu_aggiorna_pagina">Aggiorna App</string>
 
     <!--Stringhe per il main pagerview-->
     <string name="pager_tab1">Profilo</string>
@@ -104,7 +105,7 @@
     <string name="ps_titolo">Personale Sanitario</string>
     <string name="ps_option_search">Cerca personale sanitario</string>
     <string name="ps_button_register_as_ps">Registrati come personale sanitario</string>
-    <string name="ps_are_you_doctor_title">Fai parte personale sanitario?</string>
+    <string name="ps_are_you_doctor_title">Fai parte del personale sanitario?</string>
     <string name="ps_are_you_doctor_msg">Se procedi ti verranno richiesti altri dati al solo fine di
         effettuare ulteriori controlli da parte degli amministratori.</string>
     <string name="ps_button_modify_request_of_register_as_ps">Modifica richiesta registrazione</string>
@@ -154,8 +155,9 @@
     <string name="ps_richiesta_eliminata_confirm">La richiesta è stata eliminata</string>
     <string name="ps_modifica_status_titolo">Modifica status da personale sanitario</string>
     <string name="ps_ricerca_personale_ogni_regione">Cerca in tutte le regioni</string>
-    <string name="ps_ricerca_personale_send_btn">Invia dati al personale sanitario</string>
-
+    <string name="ps_ricerca_personale_send_btn">Invia i tuoi dati</string>
+    <string name="ps_invio_dati_titolo_scegli_app">Con quale app inviare i dati?</string>
+    <string name="ps_invio_dati_messaggio">Messaggio di prova con le mie malattie</string>
 
     <!--Stringhe per la gestione della pagina admin-->
     <string name="admin_page_title">Pagina Amministratore</string>
@@ -171,10 +173,39 @@
     <string name="admin_rifiuta_richiesta">Rifiuta richiesta</string>
 
     <!--Stringhe per la gestione dei permessi-->
-    <string name="permission_title_rationale_coarse_location">Richiesta permesso</string>
+    <string name="permission_title_rationale_coarse_location">Permesso per la tua posizione</string>
     <string name="permission_text_rationale_coarse_location">
         Per poterti fornire informazioni più precise sulla tua zona ci serve conoscere la tua posizione.</string>
     <string name="permission_ok">Ok</string>
+
+    <!--Stringhe per la sezione informativa-->
+    <string name="info_btn_search_for_region">Trova la tua regione</string>
+    <string name="info_btn_search_for_region_ok_alert">Attendere aggiornamento</string>
+    <string name="info_btn_search_for_region_denied_title">Permesso negato</string>
+    <string name="info_btn_search_for_region_denied_msg">Per poter accedere a tale funzionalità devi conferire
+        il permesso dalle impostazioni di sistema.</string>
+    <string name="info_voto_asilapp_title">Valuta AsilApp</string>
+    <string name="info_voto_result">%d/5</string>
+    <string name="info_voto_medio"> Voto medio degli utenti: %d/5</string>
+    <string name="info_voto_medio_inesistente">Nessun voto dato dagli utenti</string>
+    <string name="info_voto_regione_title">Valuta la regione %s</string>
+
+    <!--Stringhe per la sezione di ricerca mappa-->
+    <string name="maps_domanda">Quale luogo vuoi cercare?</string>
+    <string-array name="maps_luoghi_interesse">
+        <item>Ospedale</item>
+        <item>Farmacia</item>
+        <item>Posta</item>
+        <item>Comune</item>
+        <item>Ristorante</item>
+        <item>Scuola</item>
+        <item>Chiesa</item>
+    </string-array>
+
+    <!--Stringhe per la valigetta medica-->
+    <string name="valigia_title">Valigetta Medica</string>
+    <string name="valigia_search_user_title">Su chi devi effettuare la misurazione?</string>
+    <string name="valigia_search_user">Cerca Utente</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

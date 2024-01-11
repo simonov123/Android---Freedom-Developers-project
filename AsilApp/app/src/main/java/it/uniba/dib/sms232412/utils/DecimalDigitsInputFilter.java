@@ -19,7 +19,7 @@ public class DecimalDigitsInputFilter implements InputFilter {
         if (!matcher.matches())
             return "";
         if (source.equals(".") && digitsAfterDot(newText) == 0) {
-            return "";
+            return ".";
         }
         return null;
     }

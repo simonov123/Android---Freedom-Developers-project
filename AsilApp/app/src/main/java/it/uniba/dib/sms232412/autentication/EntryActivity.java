@@ -24,6 +24,7 @@ public class EntryActivity extends AppCompatActivity implements LoginFragment.Ch
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.Base_Theme_AsilApp);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_entry);
 

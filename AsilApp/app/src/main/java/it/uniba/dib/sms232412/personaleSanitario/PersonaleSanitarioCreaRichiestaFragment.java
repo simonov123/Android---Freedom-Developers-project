@@ -98,7 +98,7 @@ public class PersonaleSanitarioCreaRichiestaFragment extends Fragment {
             }
         });
 
-        //Se ho una regione registrata imposto quella di default
+        //Se ho una regione italiana registrata la imposto di default
         if(getActivity() != null){
             SharedPreferences shared = getActivity().getSharedPreferences("regione.txt", Context.MODE_PRIVATE);
             int num_regione = shared.getInt("NUM_REGIONE", -1);

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:2:1-47:12
+ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:2:1-52:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Michele\.gradle\caches\transforms-3\4669995c969fbc48c6f5f8513e535ba6\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Michele\.gradle\caches\transforms-3\bd62d5d73b6b53bda4be8fe0cdda0c85\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Michele\.gradle\caches\transforms-3\658f1a5c5767ea94c94a5a45a51316cc\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -115,8 +115,8 @@ ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-pr
 	android:name
 		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:7:22-76
 application
-ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:9:5-45:19
-INJECTED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:9:5-45:19
+ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:9:5-50:19
+INJECTED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:9:5-50:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Michele\.gradle\caches\transforms-3\4669995c969fbc48c6f5f8513e535ba6\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Michele\.gradle\caches\transforms-3\4669995c969fbc48c6f5f8513e535ba6\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Michele\.gradle\caches\transforms-3\bd62d5d73b6b53bda4be8fe0cdda0c85\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -201,7 +201,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Michele\.gradle\ca
 		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:17:9-50
 	android:dataExtractionRules
 		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:11:9-65
-activity#it.uniba.dib.sms232412.adminSection.AdminActivity
+activity#it.uniba.dib.sms232412.valigettaMedica.ValigettaActivity
 ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:19:9-23:57
 	android:screenOrientation
 		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:22:13-49
@@ -210,8 +210,8 @@ ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-pr
 	android:theme
 		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:23:13-54
 	android:name
-		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:20:13-55
-activity#it.uniba.dib.sms232412.personaleSanitario.PersonaleSanitarioActivity
+		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:20:13-62
+activity#it.uniba.dib.sms232412.adminSection.AdminActivity
 ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:24:9-28:57
 	android:screenOrientation
 		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:27:13-49
@@ -220,8 +220,8 @@ ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-pr
 	android:theme
 		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:28:13-54
 	android:name
-		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:25:13-74
-activity#it.uniba.dib.sms232412.MainActivity
+		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:25:13-55
+activity#it.uniba.dib.sms232412.personaleSanitario.PersonaleSanitarioActivity
 ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:29:9-33:57
 	android:screenOrientation
 		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:32:13-49
@@ -230,27 +230,37 @@ ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-pr
 	android:theme
 		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:33:13-54
 	android:name
-		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:30:13-41
-activity#it.uniba.dib.sms232412.autentication.EntryActivity
-ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:34:9-44:20
+		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:30:13-74
+activity#it.uniba.dib.sms232412.MainActivity
+ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:34:9-38:57
 	android:screenOrientation
 		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:37:13-49
 	android:exported
-		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:36:13-36
+		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:36:13-37
 	android:theme
 		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:38:13-54
 	android:name
-		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:35:13-56
+		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:35:13-41
+activity#it.uniba.dib.sms232412.autentication.EntryActivity
+ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:39:9-49:20
+	android:screenOrientation
+		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:42:13-49
+	android:exported
+		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:41:13-36
+	android:theme
+		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:43:13-54
+	android:name
+		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:40:13-56
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:39:13-43:29
+ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:44:13-48:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:40:17-69
+ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:45:17-69
 	android:name
-		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:40:25-66
+		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:45:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:42:17-77
+ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:47:17-77
 	android:name
-		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:42:27-74
+		ADDED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml:47:27-74
 uses-sdk
 INJECTED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Michele\Desktop\PROGETTO_SMS\Android---Freedom-Developers-project\AsilApp\app\src\main\AndroidManifest.xml

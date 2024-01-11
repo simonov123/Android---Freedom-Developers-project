@@ -1,12 +1,25 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.AsilApp.Entry" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    <style name="Base.Theme.AsilApp.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/primary_variant_dark</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+
     </style>
 
     <style name="Base.Theme.AsilApp" parent="Theme.Material3.DayNight">
-        <!-- Customize your dark theme here. -->
+        <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="android:statusBarColor">@color/primary_variant_dark</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+        
     </style>
+
 </resources>

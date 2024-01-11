@@ -12,6 +12,8 @@
         android:icon="@drawable/ic_healthcare_logo"
         app:showAsAction="always"/>
 
+    <item android:id="@+id/option_menu_update"
+        android:title="@string/option_menu_aggiorna_pagina"/>
     <item android:id="@+id/option_menu_logout"
         android:title="@string/option_menu_logout"/>
     <item android:id="@+id/option_menu_delete_account"

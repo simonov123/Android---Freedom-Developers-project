@@ -28,6 +28,7 @@ import java.util.Collections;
 import java.util.List;
 
 import it.uniba.dib.sms232412.R;
+import it.uniba.dib.sms232412.utils.Utente;
 
 public class PersonaleSanitarioListaFragment extends Fragment {
 
@@ -45,13 +46,14 @@ public class PersonaleSanitarioListaFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        if(getActivity() == null) return;
+        if(getActivity() == null || !(getActivity() instanceof PersonaleSanitarioActivity)) return;
+        PersonaleSanitarioActivity parentActivity = (PersonaleSanitarioActivity) getActivity();
 
         ListView listViewPS = view.findViewById(R.id.ps_list);
         CheckBox checkEveryRegion = view.findViewById(R.id.region_search_check);
         TextInputEditText editSearch = view.findViewById(R.id.edit_search);
 
-        // Vedo se ho una regione già registrata e attivo il check per ogni regione
+        // Se ho una regione già registrata attivo il check per ogni regione
         SharedPreferences shared = getActivity().getSharedPreferences("regione.txt", Context.MODE_PRIVATE);
         region = shared.getString("REGIONE", "Nessuna");
         if(!region.equals("Nessuna")){
@@ -76,7 +78,7 @@ public class PersonaleSanitarioListaFragment extends Fragment {
                     }
                     if(myList.size() > 0 && getContext() != null){
                         Collections.sort(myList);
-                        adapter = new ListaPersonaleSanitarioAdapter(getContext(), R.layout.lista_ps_single_element_layout, myList);
+                        adapter = new ListaPersonaleSanitarioAdapter(getContext(), R.layout.lista_ps_single_element_layout, myList, parentActivity.getNomeCompletoUtente());
                         listViewPS.setAdapter(adapter);
                         if(!region.equals("Nessuna") && editSearch.getText() != null){
                             adapter.filterText(editSearch.getText().toString(), false, region);

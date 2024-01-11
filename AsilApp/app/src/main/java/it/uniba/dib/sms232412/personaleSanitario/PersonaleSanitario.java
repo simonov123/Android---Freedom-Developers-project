@@ -39,6 +39,6 @@ public class PersonaleSanitario implements Comparable<PersonaleSanitario>{
 
     @Override
     public int compareTo(PersonaleSanitario o) {
-        return nomeCompleto.compareTo(o.getNomeCompleto());
+        return nomeCompleto.toLowerCase().compareTo(o.getNomeCompleto().toLowerCase());
     }
 }

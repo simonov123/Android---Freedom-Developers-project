@@ -31,15 +31,23 @@ public class Spesa implements Comparable<Spesa>{
     }
 
     public boolean isDateInRange(LocalDate startDate, LocalDate endDate){
-        LocalDate myDate = LocalDate.parse(data, formato);
-        return (!myDate.isBefore(startDate) &&
-                !myDate.isAfter(endDate));
+        try{
+            LocalDate myDate = LocalDate.parse(data, formato);
+            return (!myDate.isBefore(startDate) &&
+                    !myDate.isAfter(endDate));
+        } catch(Exception e){
+            return false;
+        }
     }
 
     @Override
     public int compareTo(Spesa o) {
-        LocalDate myDate = LocalDate.parse(data, formato);
-        LocalDate paramDate = LocalDate.parse(o.getData(), formato);
-        return myDate.compareTo(paramDate);
+        try{
+            LocalDate myDate = LocalDate.parse(data, formato);
+            LocalDate paramDate = LocalDate.parse(o.getData(), formato);
+            return myDate.compareTo(paramDate);
+        } catch(Exception e){
+            return 0;
+        }
     }
 }

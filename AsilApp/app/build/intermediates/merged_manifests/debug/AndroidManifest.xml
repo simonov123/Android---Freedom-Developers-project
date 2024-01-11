@@ -38,6 +38,11 @@
         android:testOnly="true"
         android:theme="@style/Base.Theme.AsilApp" >
         <activity
+            android:name="it.uniba.dib.sms232412.valigettaMedica.ValigettaActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AsilApp" />
+        <activity
             android:name="it.uniba.dib.sms232412.adminSection.AdminActivity"
             android:exported="false"
             android:screenOrientation="portrait"

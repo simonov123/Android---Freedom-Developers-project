@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:padding="8dp"
         android:elevation="8dp"
-        android:background="@color/design_default_color_background"
+        android:background="@color/color_list"
         android:layout_below="@+id/btn_data"
         android:layout_marginTop="10dp"
         android:layout_marginStart="10dp">
@@ -64,7 +64,7 @@
         android:layout_below="@+id/data_selezionata"
         android:layout_marginTop="5dp"
         android:layout_marginStart="15dp"
-        app:boxBackgroundColor="@color/design_default_color_background">
+        app:boxBackgroundColor="@color/color_list">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edit_costo"

@@ -88,6 +88,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array maps_luoghi_interesse
 array regioni_italiane
 array spese_lista_tipologie
 array spese_lista_tipologie_piu_tutto
@@ -1392,6 +1393,8 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color color_data_attivata
+color color_data_disattivata
 color color_list
 color color_panel
 color common_google_signin_btn_text_dark
@@ -3282,6 +3285,7 @@ id btn_data_start
 id btn_delete
 id btn_delete_request
 id btn_denied
+id btn_search_region
 id btn_send
 id buttonPanel
 id cache_measures
@@ -3314,6 +3318,8 @@ id confirm_button
 id confirm_password
 id constraint
 id container
+id container_1
+id container_2
 id container_anagrafica_mail
 id container_anagrafica_name
 id container_anagrafica_regione
@@ -3438,6 +3444,7 @@ id immediateStop
 id included
 id indeterminate
 id info
+id info_region_frame
 id invisible
 id inward
 id istituzione
@@ -3564,6 +3571,7 @@ id option_menu_delete_account
 id option_menu_logout
 id option_menu_map
 id option_menu_personale_sanitario
+id option_menu_update
 id option_menu_valigetta
 id outline
 id outward
@@ -3591,6 +3599,8 @@ id ps_btn_config
 id ps_list
 id ps_main_frame
 id radio
+id rating_bar_asilapp
+id rating_bar_regione
 id ratio
 id rectangles
 id region_search_check
@@ -3706,6 +3716,8 @@ id tipo_spesa
 id title
 id titleDividerNoCustom
 id title_template
+id title_voto_asilapp
+id title_voto_regione
 id toggle
 id top
 id topPanel
@@ -3729,6 +3741,8 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user_list
+id valigia_main_frame
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3738,6 +3752,11 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id votation_frame
+id voto_asilapp_medio
+id voto_asilapp_personale
+id voto_regione_medio
+id voto_regione_personale
 id west
 id wide
 id withText
@@ -3867,6 +3886,7 @@ layout activity_admin
 layout activity_entry
 layout activity_main
 layout activity_personale_sanitario
+layout activity_valigetta
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -3890,16 +3910,20 @@ layout fragment_gestore_spesa
 layout fragment_gestore_spesa_add
 layout fragment_gestore_spesa_calcola
 layout fragment_gestore_spesa_lista
+layout fragment_info
 layout fragment_info_location
+layout fragment_info_votation
 layout fragment_login
 layout fragment_personale_sanitario_crea_richiesta
 layout fragment_personale_sanitario_lista
 layout fragment_personale_sanitario_modifica_richiesta
 layout fragment_personale_sanitario_modifica_status_p_s
 layout fragment_register
+layout fragment_valigetta_step1_trova_utente
 layout lista_ps_single_element_layout
 layout lista_richieste_per_diventare_ps_single_element_layout
 layout lista_spese_single_element_layout
+layout lista_utenti_single_element_layout
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -4086,6 +4110,15 @@ string google_storage_bucket
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string info_btn_search_for_region
+string info_btn_search_for_region_denied_msg
+string info_btn_search_for_region_denied_title
+string info_btn_search_for_region_ok_alert
+string info_voto_asilapp_title
+string info_voto_medio
+string info_voto_medio_inesistente
+string info_voto_regione_title
+string info_voto_result
 string item_view_role_description
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
@@ -4103,6 +4136,7 @@ string m3_sys_motion_easing_linear
 string m3_sys_motion_easing_standard
 string m3_sys_motion_easing_standard_accelerate
 string m3_sys_motion_easing_standard_decelerate
+string maps_domanda
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_24h_suffix
@@ -4188,6 +4222,7 @@ string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
 string option_menu_admin_page
+string option_menu_aggiorna_pagina
 string option_menu_delete_account
 string option_menu_delete_account_msg
 string option_menu_delete_account_title
@@ -4229,6 +4264,8 @@ string ps_invia_richiesta_completata_title
 string ps_invia_richiesta_error_codice_fiscale
 string ps_invia_richiesta_error_istituzione
 string ps_invia_richiesta_error_professione
+string ps_invio_dati_messaggio
+string ps_invio_dati_titolo_scegli_app
 string ps_modifica_richiesta_save
 string ps_modifica_status_titolo
 string ps_option_search
@@ -4271,6 +4308,9 @@ string spese_lista_vuota_msg
 string spese_risultato_calcolo_spesa
 string spese_seleziona_ogni_data
 string status_bar_notification_info_overflow
+string valigia_search_user
+string valigia_search_user_title
+string valigia_title
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -4361,7 +4401,6 @@ style Base_Theme_AppCompat_Light_Dialog_FixedSize
 style Base_Theme_AppCompat_Light_Dialog_MinWidth
 style Base_Theme_AppCompat_Light_DialogWhenLarge
 style Base_Theme_AsilApp
-style Base_Theme_AsilApp_Entry
 style Base_Theme_AsilApp_NoActionBar
 style Base_Theme_Material3_Dark
 style Base_Theme_Material3_Dark_BottomSheetDialog

@@ -9,6 +9,7 @@ import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -28,12 +29,15 @@ public class PersonaleSanitarioActivity extends AppCompatActivity
         PersonaleSanitarioModificaStatusPSFragment.CompleteListener {
 
     private String userRole;
+    private String userNome;
+    private String userCognome;
     private boolean isStartModeActive = true;
     private boolean isRequestPendant = false;
     private Button config_button;
     private FragmentManager fragManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.Base_Theme_AsilApp);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_personale_sanitario);
 
@@ -50,8 +54,11 @@ public class PersonaleSanitarioActivity extends AppCompatActivity
         }
 
         //Ricavo i dati dell'utente dall'intent usato per chiamare questa activity
-        String userUid = getIntent().getStringExtra("UID");
-        userRole = getIntent().getStringExtra("ROLE");
+        Intent callingIntent = getIntent();
+        String userUid = callingIntent.getStringExtra("UID");
+        userRole = callingIntent.getStringExtra("ROLE");
+        userNome = callingIntent.getStringExtra("NOME");
+        userCognome = callingIntent.getStringExtra("COGNOME");
 
         //In base al ruolo gestisco diversamente il bottone per la registrazione come personale sanitario
         config_button = findViewById(R.id.ps_btn_config);
@@ -154,5 +161,9 @@ public class PersonaleSanitarioActivity extends AppCompatActivity
     @Override
     public void setRequestPendant(boolean isPendant) {
         isRequestPendant = isPendant;
+    }
+
+    public String getNomeCompletoUtente(){
+        return(userNome + " " + userCognome);
     }
 }

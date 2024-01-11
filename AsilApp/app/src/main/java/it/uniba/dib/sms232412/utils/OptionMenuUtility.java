@@ -16,6 +16,7 @@ import it.uniba.dib.sms232412.MainActivity;
 import it.uniba.dib.sms232412.personaleSanitario.PersonaleSanitarioActivity;
 import it.uniba.dib.sms232412.R;
 import it.uniba.dib.sms232412.autentication.EntryActivity;
+import it.uniba.dib.sms232412.valigettaMedica.ValigettaActivity;
 
 //Questa classe di utility è per il menù di opzioni della Main Activity
 public class OptionMenuUtility {
@@ -89,6 +90,16 @@ public class OptionMenuUtility {
             Intent intent = new Intent(activity, PersonaleSanitarioActivity.class);
             intent.putExtra("UID", activity.getUserUid());
             intent.putExtra("ROLE", activity.getUserRole());
+            intent.putExtra("NOME", activity.getUserName());
+            intent.putExtra("COGNOME", activity.getUserSurname());
+            activity.startActivity(intent);
+            activity.overridePendingTransition(R.anim.anim_enter_from_top, R.anim.anim_exit_to_bottom);
+            return true;
+        }
+
+        //OPZIONE PER ACCEDERE ALLA VALIGETTA MEDICA
+        if(id == R.id.option_menu_valigetta){
+            Intent intent = new Intent(activity, ValigettaActivity.class);
             activity.startActivity(intent);
             activity.overridePendingTransition(R.anim.anim_enter_from_top, R.anim.anim_exit_to_bottom);
             return true;
@@ -98,6 +109,12 @@ public class OptionMenuUtility {
         if(id == R.id.option_menu_admin_page){
             Intent intent = new Intent(activity, AdminActivity.class);
             activity.startActivity(intent);
+            return true;
+        }
+
+        //OPZIONE PER AGGIORNARE LA HOME PAGE
+        if(id == R.id.option_menu_update){
+            activity.reload();
             return true;
         }
 

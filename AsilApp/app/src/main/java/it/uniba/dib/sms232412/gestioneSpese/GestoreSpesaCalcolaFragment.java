@@ -93,13 +93,13 @@ public class GestoreSpesaCalcolaFragment extends Fragment implements DatePickerD
                 btnChangeDateFrom.setEnabled(false);
                 btnChangeDateTo.setEnabled(false);
                 btnChangeDateFrom.getBackground().setAlpha(128);
-                btnChangeDateFrom.setColorFilter(R.color.black);
+                btnChangeDateFrom.setColorFilter(R.color.color_data_attivata);
                 btnChangeDateTo.getBackground().setAlpha(128);
-                btnChangeDateTo.setColorFilter(R.color.black);
-                dateFromLabel.setTextColor(getResources().getColor(R.color.grey));
-                dateToLabel.setTextColor(getResources().getColor(R.color.grey));
-                textFrom.setTextColor(getResources().getColor(R.color.grey));
-                textTo.setTextColor(getResources().getColor(R.color.grey));
+                btnChangeDateTo.setColorFilter(R.color.color_data_attivata);
+                dateFromLabel.setTextColor(getResources().getColor(R.color.color_data_disattivata));
+                dateToLabel.setTextColor(getResources().getColor(R.color.color_data_disattivata));
+                textFrom.setTextColor(getResources().getColor(R.color.color_data_disattivata));
+                textTo.setTextColor(getResources().getColor(R.color.color_data_disattivata));
             } else {
                 btnChangeDateFrom.setEnabled(true);
                 btnChangeDateTo.setEnabled(true);
@@ -107,10 +107,10 @@ public class GestoreSpesaCalcolaFragment extends Fragment implements DatePickerD
                 btnChangeDateFrom.setColorFilter(null);
                 btnChangeDateTo.getBackground().setAlpha(255);
                 btnChangeDateTo.setColorFilter(null);
-                dateFromLabel.setTextColor(getResources().getColor(R.color.black));
-                dateToLabel.setTextColor(getResources().getColor(R.color.black));
-                textFrom.setTextColor(getResources().getColor(R.color.black));
-                textTo.setTextColor(getResources().getColor(R.color.black));
+                dateFromLabel.setTextColor(getResources().getColor(R.color.color_data_attivata));
+                dateToLabel.setTextColor(getResources().getColor(R.color.color_data_attivata));
+                textFrom.setTextColor(getResources().getColor(R.color.color_data_attivata));
+                textTo.setTextColor(getResources().getColor(R.color.color_data_attivata));
             }
         });
 

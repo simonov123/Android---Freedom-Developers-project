@@ -1,11 +1,14 @@
 package it.uniba.dib.sms232412.personaleSanitario;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -24,12 +27,14 @@ public class ListaPersonaleSanitarioAdapter extends BaseAdapter {
     final private Context context;
     final private int layout_single_line;
     final private FirebaseDatabase dbRef = FirebaseDatabase.getInstance();
+    final private String nominativoUtente;
 
-    public ListaPersonaleSanitarioAdapter(@NonNull Context context, int layout_single_line, List<PersonaleSanitario> listaPersonale) {
+    public ListaPersonaleSanitarioAdapter(@NonNull Context context, int layout_single_line, List<PersonaleSanitario> listaPersonale, String nominativoUtente) {
         this.context = context;
         this.listaPersonale = listaPersonale;
         this.listaPersonaleOriginale = new ArrayList<>(listaPersonale);
         this.layout_single_line = layout_single_line;
+        this.nominativoUtente = nominativoUtente;
     }
 
 
@@ -70,6 +75,15 @@ public class ListaPersonaleSanitarioAdapter extends BaseAdapter {
         textRegione.setText(res.getString(R.string.admin_single_request_regione, myPersonaleSanitario.getRegione()));
 
         // Gestione tasto send
+        ImageButton btnSend = convertView.findViewById(R.id.btn_send);
+        btnSend.setOnClickListener(v -> {
+            Intent sendIntent = new Intent(Intent.ACTION_SENDTO);
+            sendIntent.setData(Uri.parse("mailto:" + myPersonaleSanitario.getEmail()));
+            sendIntent.putExtra(Intent.EXTRA_SUBJECT, nominativoUtente);
+            sendIntent.putExtra(Intent.EXTRA_TEXT, context.getString(R.string.ps_invio_dati_messaggio));
+            Intent myChooser = Intent.createChooser(sendIntent, context.getString(R.string.ps_invio_dati_titolo_scegli_app));
+            context.startActivity(myChooser);
+        });
 
         return convertView;
     }

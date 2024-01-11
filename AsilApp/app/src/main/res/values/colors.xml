@@ -12,4 +12,6 @@
     <color name="color_list">#FFF7F7F7</color>
     <color name="red">#FFFF0000</color>
     <color name="green">#FF00FF00</color>
+    <color name="color_data_attivata">#FF000000</color>
+    <color name="color_data_disattivata">#FFAAAAAA</color>
 </resources>
