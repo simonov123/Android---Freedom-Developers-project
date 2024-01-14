@@ -23,7 +23,6 @@ public class ValigettaActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setTheme(R.style.Base_Theme_AsilApp);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_valigetta);
 

@@ -35,6 +35,7 @@ public class AnagraficaFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        TextView textRuolo = view.findViewById(R.id.anagrafica_ruolo);
         TextView textMail = view.findViewById(R.id.anagrafica_mail);
         TextView textName = view.findViewById(R.id.anagrafica_name);
         TextView textSurname = view.findViewById(R.id.anagrafica_surname);
@@ -50,7 +51,20 @@ public class AnagraficaFragment extends Fragment {
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
                     if(snapshot.exists()){
                         Utente myUser = snapshot.getValue(Utente.class);
-                        if(myUser != null){
+                        if(getActivity() != null && myUser != null){
+                            switch (myUser.getRuolo()){
+                                case "utente":
+                                    textRuolo.setText(getString(R.string.anagrafica_ruolo_utente));
+                                    break;
+                                case "personaleSanitario":
+                                    textRuolo.setText(getString(R.string.anagrafica_ruolo_ps));
+                                    break;
+                                case "admin":
+                                    textRuolo.setText(getString(R.string.anagrafica_ruolo_admin));
+                                    break;
+                                case "adminPersonaleSanitario":
+                                    textRuolo.setText(getString(R.string.anagrafica_ruolo_ps_admin));
+                            }
                             textMail.setText(myUser.getEmail());
                             textName.setText(myUser.getNome());
                             textSurname.setText(myUser.getCognome());
@@ -64,11 +78,8 @@ public class AnagraficaFragment extends Fragment {
                         }
                     }
                 }
-
                 @Override
-                public void onCancelled(@NonNull DatabaseError error) {
-
-                }
+                public void onCancelled(@NonNull DatabaseError error) {}
             });
         }
     }

@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     private double latitudine = 0.0;
     private double longitudine = 0.0;
     private FirebaseUser user;
-    private String userUid, userRole, userName, userSurname;
+    private String userUid, userRole, userName, userSurname, userSesso;
     private OptionMenuUtility menuUtility;
     private DatabaseReference dbRootForUpdate;
     private ValueEventListener valueEventListenerForUpdate;
@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         ViewPager2 mainPager = findViewById(R.id.main_pager);
         PagerAdapter pagerAdapter = new PagerAdapter(getSupportFragmentManager(), getLifecycle());
         mainPager.setAdapter(pagerAdapter);
-        mainPager.setCurrentItem(1, false);
+        mainPager.setCurrentItem(0, false);
 
         new TabLayoutMediator(mainTab, mainPager, (tab, position) -> {
             switch (position) {
@@ -181,6 +181,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
                 userRole = utente.getRuolo();
                 userName = utente.getNome();
                 userSurname = utente.getCognome();
+                userSesso = utente.getSesso();
                 if (userRole.equals("admin") || userRole.equals("adminPersonaleSanitario")) {
                     inflater.inflate(R.menu.menu_action_bar_admin, menu);
                 } else if (userRole.equals("personaleSanitario")) {
@@ -226,6 +227,9 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     }
     public String getUserSurname(){
         return userSurname;
+    }
+    public String getUserSesso(){
+        return userSesso;
     }
 
     public void reload() {
@@ -413,7 +417,8 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
                     String uriString = "geo:" + latitudine + "," + longitudine + "?q=" + scelta;
                     Uri uri = Uri.parse(uriString);
                     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                    startActivity(intent);
+                    Intent myChooser = Intent.createChooser(intent, getString(R.string.maps_chooser_scegli_app));
+                    startActivity(myChooser);
                 });
         builder.show();
     }

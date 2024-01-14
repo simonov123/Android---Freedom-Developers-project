@@ -9,6 +9,7 @@ import androidx.viewpager2.adapter.FragmentStateAdapter;
 import it.uniba.dib.sms232412.AnagraficaFragment;
 import it.uniba.dib.sms232412.gestioneSpese.GestoreSpesaFragment;
 import it.uniba.dib.sms232412.sezioneInformativa.InfoFragment;
+import it.uniba.dib.sms232412.sezioneMalattie.MalattieFragment;
 
 public class PagerAdapter extends FragmentStateAdapter {
     final static private int NUM_PAGINE = 4;
@@ -25,7 +26,7 @@ public class PagerAdapter extends FragmentStateAdapter {
                 frag = new AnagraficaFragment();
                 break;
             case 1:
-                frag = new Fragment();
+                frag = new MalattieFragment();
                 break;
             case 2:
                 frag = new InfoFragment();

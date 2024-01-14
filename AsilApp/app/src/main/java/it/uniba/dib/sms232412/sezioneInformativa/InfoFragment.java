@@ -7,7 +7,6 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -20,7 +19,6 @@ import it.uniba.dib.sms232412.R;
 public class InfoFragment extends Fragment {
 
     private MainActivity activity;
-    private String region;
     protected int num_region;
 
     @Override
@@ -39,26 +37,19 @@ public class InfoFragment extends Fragment {
 
         // Verifico se ho letto una regione
         SharedPreferences shared = getActivity().getSharedPreferences("regione.txt", Context.MODE_PRIVATE);
-        region = shared.getString("REGIONE", "Nessuna");
+        String region = shared.getString("REGIONE", "Nessuna");
         num_region = shared.getInt("NUM_REGIONE", -1);
         if(region.equals("Nessuna")){
             // Nel caso in cui non ho conferito il permesso, abilito il bottone per dare il permesso
             Button btn_region = view.findViewById(R.id.btn_search_region);
             btn_region.setVisibility(View.VISIBLE);
-            btn_region.setOnClickListener(v -> {
-                activity.askExplicitPermissionForLocationInInfo();
-            });
+            btn_region.setOnClickListener(v -> activity.askExplicitPermissionForLocationInInfo());
         }
 
-        createPage();
-
-    }
-
-    private void createPage(){
         getChildFragmentManager().beginTransaction()
                 .replace(R.id.votation_frame, new InfoVotationFragment())
                 .replace(R.id.info_region_frame, new InfoLocationFragment())
                 .commit();
-    }
 
+    }
 }

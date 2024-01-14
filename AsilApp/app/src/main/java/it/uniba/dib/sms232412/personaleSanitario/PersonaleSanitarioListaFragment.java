@@ -28,7 +28,6 @@ import java.util.Collections;
 import java.util.List;
 
 import it.uniba.dib.sms232412.R;
-import it.uniba.dib.sms232412.utils.Utente;
 
 public class PersonaleSanitarioListaFragment extends Fragment {
 

@@ -3,7 +3,7 @@
     package="it.uniba.dib.sms232412.test" >
 
     <uses-sdk
-        android:minSdkVersion="26"
+        android:minSdkVersion="30"
         android:targetSdkVersion="34" />
 
     <instrumentation

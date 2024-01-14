@@ -37,7 +37,6 @@ public class PersonaleSanitarioActivity extends AppCompatActivity
     private FragmentManager fragManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setTheme(R.style.Base_Theme_AsilApp);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_personale_sanitario);
 
@@ -75,9 +74,7 @@ public class PersonaleSanitarioActivity extends AppCompatActivity
                     }
                 }
                 @Override
-                public void onCancelled(@NonNull DatabaseError error) {
-
-                }
+                public void onCancelled(@NonNull DatabaseError error) {}
             });
         }
         makeStartConfig();

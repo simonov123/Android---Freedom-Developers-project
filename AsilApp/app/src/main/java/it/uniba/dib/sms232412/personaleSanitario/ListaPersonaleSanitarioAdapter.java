@@ -13,7 +13,13 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,7 +32,7 @@ public class ListaPersonaleSanitarioAdapter extends BaseAdapter {
     final private List<PersonaleSanitario> listaPersonaleOriginale;
     final private Context context;
     final private int layout_single_line;
-    final private FirebaseDatabase dbRef = FirebaseDatabase.getInstance();
+    private DatabaseReference dbRefMalattieUser;
     final private String nominativoUtente;
 
     public ListaPersonaleSanitarioAdapter(@NonNull Context context, int layout_single_line, List<PersonaleSanitario> listaPersonale, String nominativoUtente) {
@@ -35,6 +41,8 @@ public class ListaPersonaleSanitarioAdapter extends BaseAdapter {
         this.listaPersonaleOriginale = new ArrayList<>(listaPersonale);
         this.layout_single_line = layout_single_line;
         this.nominativoUtente = nominativoUtente;
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        if(user != null) dbRefMalattieUser = FirebaseDatabase.getInstance().getReference("Utenti").child(user.getUid()).child("malattie");
     }
 
 
@@ -77,12 +85,26 @@ public class ListaPersonaleSanitarioAdapter extends BaseAdapter {
         // Gestione tasto send
         ImageButton btnSend = convertView.findViewById(R.id.btn_send);
         btnSend.setOnClickListener(v -> {
-            Intent sendIntent = new Intent(Intent.ACTION_SENDTO);
-            sendIntent.setData(Uri.parse("mailto:" + myPersonaleSanitario.getEmail()));
-            sendIntent.putExtra(Intent.EXTRA_SUBJECT, nominativoUtente);
-            sendIntent.putExtra(Intent.EXTRA_TEXT, context.getString(R.string.ps_invio_dati_messaggio));
-            Intent myChooser = Intent.createChooser(sendIntent, context.getString(R.string.ps_invio_dati_titolo_scegli_app));
-            context.startActivity(myChooser);
+            if(dbRefMalattieUser == null) return;
+            dbRefMalattieUser.addListenerForSingleValueEvent(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot snapshot) {
+                    StringBuilder msgMalattie = new StringBuilder(context.getString(R.string.ps_invio_dati_messaggio));
+                    if(snapshot.exists()){
+                        for(DataSnapshot childSnapshot : snapshot.getChildren()){
+                            msgMalattie.append("\n").append(childSnapshot.getKey());
+                        }
+                    }
+                    Intent sendIntent = new Intent(Intent.ACTION_SENDTO);
+                    sendIntent.setData(Uri.parse("mailto:" + myPersonaleSanitario.getEmail()));
+                    sendIntent.putExtra(Intent.EXTRA_SUBJECT, nominativoUtente);
+                    sendIntent.putExtra(Intent.EXTRA_TEXT, msgMalattie.toString());
+                    Intent myChooser = Intent.createChooser(sendIntent, context.getString(R.string.ps_invio_dati_titolo_scegli_app));
+                    context.startActivity(myChooser);
+                }
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {}
+            });
         });
 
         return convertView;
