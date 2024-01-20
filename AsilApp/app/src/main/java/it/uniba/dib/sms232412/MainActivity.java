@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
          */
         ActionBar myBar = getSupportActionBar();
         if (myBar != null) {
-            myBar.setTitle(" HOMEPAGE");
+            myBar.setTitle(" HOME");
             myBar.setDisplayShowHomeEnabled(true);
             myBar.setIcon(AppCompatResources.getDrawable(this, R.drawable.asilapp_icon));
             myBar.setBackgroundDrawable(new ColorDrawable(ContextCompat.getColor(this, R.color.app_bar_color)));
