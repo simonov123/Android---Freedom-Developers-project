@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/option_menu_map"
+        android:title=""
+        android:icon="@drawable/ic_location_logo"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/option_menu_personale_sanitario"
+        android:title=""
+        android:icon="@drawable/ic_healthcare_logo"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/option_menu_update"
+        android:title="@string/option_menu_aggiorna_pagina"/>
+    <item android:id="@+id/option_menu_logout"
+        android:title="@string/option_menu_logout"/>
+    <item android:id="@+id/option_menu_delete_account"
+        android:title="@string/option_menu_delete_account"/>
+</menu>

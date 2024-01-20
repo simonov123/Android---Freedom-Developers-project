@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Valigetta</string>
+    <string name="reset_valigetta_btn">RIAVVIA VALIGETTA</string>
+    <string name="btn_avvia_server">ATTIVA VISIBILITÀ VALIGETTA</string>
+    <string name="btn_attiva_sensore">APRI SENSORE RICHIESTO</string>
+    <string name="valigia_bt_non_abilitato">Bluetooth non abilitato sul device</string>
+    <string name="valigia_bt_rationale_title">Permesso bluetooth</string>
+    <string name="valigia_bt_rationale_msg">Serve attivare il bluetooth per fornire il servizio della valigetta ad AsilApp</string>
+    <string name="ok">Ok</string>
+    <string name="valigia_visibilita_avviata">Visibilità valigetta avviata</string>
+    <string name="valigia_sensore_non_rilevato">Nessun sensore richiesto da Asilapp</string>
+    <string name="valigia_sensore_rilevato">Sensore richiesto: %s</string>
+    <string name="valiga_conferma_misura_fatta">CONFERMA MISURA EFFETTUATA</string>
+    <string name="misura_inviata">Misura inviata ad AsilApp</string>
+    <string name="misura_non_ancora_fatta">Non è stata rilevata alcuna misura</string>
+
+    <string name="temperatura_sensore_non_trovato">Nessun sensore rilevato per la temperatura</string>
+    <string name="temperatura_iniziare_misurazione">Sensore pronto a rilevare la temperatura</string>
+    <string name="temperatura_misura_rilevata">Misura rilevata: %.2f °C</string>
+
+    <string name="pressione_sensore_non_trovato">Nessun sensore rilevato per la pressione</string>
+    <string name="pressione_iniziare_misurazione">Sensore pronto a rilevare la pressione</string>
+    <string name="pressione_misura_rilevata">Misura rilevata: %.2f hPa</string>
+
+    <string name="battiti_sensore_simulato">Il sensore dei battiti cardiaci è stato simulato.</string>
+    <string name="battiti_simula_misurazione_btn">SIMULA RISULTATO</string>
+    <string name="battiti_misura_rilevata">Misura rilevata: %.2f bpm</string>
+</resources>

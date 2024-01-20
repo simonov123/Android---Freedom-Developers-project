@@ -25,6 +25,14 @@
     <string name="entry_maschio">MASCHIO</string>
     <string name="entry_femmina">FEMMINA</string>
     <string name="entry_choice_gender">Devi selezionare il tuo sesso</string>
+    <string name="entry_login_rapido_button">ACCESSO DIRETTO</string>
+    <string name="entry_login_rapido_domanda">Con quale tipo di account si vuole eseguire l\u0027accesso rapido?</string>
+    <string-array name="entry_login_rapido_scelte">
+        <item>Amministratore</item>
+        <item>Personale sanitario</item>
+        <item>Utente Maschio</item>
+        <item>Utente Femmina</item>
+    </string-array>
 
     <!--Stringhe per il menù di opzioni-->
     <string name="option_menu_logout">Logout</string>
@@ -105,6 +113,13 @@
     <string name="anagrafica_ruolo_ps">Personale sanitario</string>
     <string name="anagrafica_ruolo_admin">Admin</string>
     <string name="anagrafica_ruolo_ps_admin">Admin + Personale sanitario</string>
+    <string name="anagrafica_misurazioni_titolo">\u0020 Misurazioni fatte dal personale sanitario</string>
+    <string name="anagrafica_temperatura_no_misure">Nessuna misura sulla temperatura.</string>
+    <string name="anagrafica_temperatura_misure">Temperatura [°C]:</string>
+    <string name="anagrafica_pressione_no_misure">Nessuna misura sulla pressione.</string>
+    <string name="anagrafica_pressione_misure">Pressione [hPa]:</string>
+    <string name="anagrafica_battiti_no_misure">Nessuna misura sui battiti cardiaci.</string>
+    <string name="anagrafica_battiti_misure">Battito Cardiaco [bpm]:</string>
 
     <!--Stringhe per la gestione del personale sanitario-->
     <string name="ps_titolo">Personale Sanitario</string>
@@ -181,7 +196,7 @@
     <string name="permission_title_rationale_coarse_location">Permesso per la tua posizione</string>
     <string name="permission_text_rationale_coarse_location">
         Per poterti fornire informazioni più precise sulla tua zona ci serve conoscere la tua posizione.</string>
-    <string name="permission_ok">Ok</string>
+    <string name="permission_ok">OK</string>
 
     <!--Stringhe per la sezione informativa-->
     <string name="info_btn_search_for_region">Trova la tua regione</string>
@@ -235,20 +250,27 @@
     <!--Stringhe per la sezione malattie-->
     <string name="malattie_title">LE MIE MALATTIE</string>
     <string name="malattie_cerca_title">CERCA LE TUE MALATTIE</string>
+    <string-array name="tutte_le_malattie">
+        <item>FEBBRE ALTA</item>
+        <item>SEPSI PUERPERALE</item>
+        <item>IPERTENSIONE</item>
+        <item>TACHICARDIA</item>
+    </string-array>
+    <string-array name="tutte_le_malattie_consigli">
+        <item>Stai a riposo, non prendere freddo, bevi molti liquidi e mangia in modo sano.</item>
+        <item>Contatta un personale sanitario per avere una prescrizione antibiotica.</item>
+        <item>Riduci il consumo di alcolici, sale e alimenti salati. Non fumare e svolgi regolare attività fisica.</item>
+        <item>Contatta un personale sanitario, rilassati e concentrati sulla respirazione. Svolgi anche attività fisica.</item>
+    </string-array>
     <string-array name="malattie_maschili_lista">
         <item>FEBBRE ALTA</item>
         <item>IPERTENSIONE</item>
         <item>TACHICARDIA</item>
     </string-array>
     <string-array name="malattie_maschili_lista_descrizioni">
-        <item>Fronte molto calda, stanchezza, brividi e mal di testa</item>
+        <item>Fronte molto calda, stanchezza, brividi e mal di testa.</item>
         <item>Mal di testa improvviso, vertigini, sudorazione fredda.</item>
         <item>Palpitazione al torace, stordimento, improvvisa debolezza.</item>
-    </string-array>
-    <string-array name="malattie_maschili_lista_consigli">
-        <item>Stai a riposo, non prendere freddo, bevi molti liquidi e mangia in modo sano.</item>
-        <item>Riduci il consumo di alcolici, sale e alimenti salati. Non fumare e svolgi regolare attività fisica.</item>
-        <item>Contatta un personale sanitario, rilassati e concentrati sulla respirazione. Svolgi anche attività fisica.</item>
     </string-array>
     <string-array name="malattie_femminili_lista">
         <item>FEBBRE ALTA</item>
@@ -262,12 +284,6 @@
         <item>Mal di testa improvviso, vertigini, sudorazione fredda.</item>
         <item>Palpitazione al torace, stordimento, improvvisa debolezza.</item>
     </string-array>
-    <string-array name="malattie_femminili_lista_consigli">
-        <item>Stai a riposo, non prendere freddo, bevi molti liquidi e mangia in modo sano.</item>
-        <item>Contatta un personale sanitario per avere una prescrizione antibiotica.</item>
-        <item>Riduci il consumo di alcolici, sale e alimenti salati. Non fumare e svolgi regolare attività fisica.</item>
-        <item>Contatta un personale sanitario, rilassati e concentrati sulla respirazione. Svolgi anche attività fisica.</item>
-    </string-array>
     <string name="malattie_confermare_malattia">Confermi di avere %s?</string>
     <string name="malattie_aggiunta_con_successo">Malattia aggiunta con successo</string>
     <string name="malattie_gia_possedute">Hai già registrato questa malattia</string>
@@ -279,8 +295,28 @@
     <string name="valigia_title">Valigetta Medica</string>
     <string name="valigia_search_user_title">Su chi devi effettuare la misurazione?</string>
     <string name="valigia_search_user">Cerca Utente</string>
+    <string name="valigia_utente_scelto">Utente selezionato: %s</string>
+    <string name="valigia_utente_scelto_malattie">Malattie: %s</string>
+    <string name="valigia_utente_scelto_nessuna_malattia">Nessuna</string>
+    <string name="valigia_scelta_sensore">Cosa vuoi misurare per l\u0027utente scelto?</string>
+    <string name="valigia_sensore_temperatura">TEMPERATURA</string>
+    <string name="valigia_sensore_pressione">PRESSIONE</string>
+    <string name="valigia_sensore_battiti">BATTITI</string>
+    <string name="valigia_sensore_selezionato">Misurazione: %s</string>
+    <string name="valigia_bt_non_abilitato">Il device non supporta il bluetooth</string>
+    <string name="valigia_bt_versione_device_non_valida">Serve una versione di Android pari o superiore a 12 per questa funzionalità</string>
+    <string name="valigia_bt_rationale_title">Permesso per usare il bluetooth</string>
+    <string name="valigia_bt_rationale_msg">Per poter usare i servizi della valigetta medica è necessario utilizzare il bluetooth del device.</string>
+    <string name="valigia_collegamento_riuscito">Collegamento con la valigetta riuscito</string>
+    <string name="valigia_ricevi_valore_da_valigetta_btn">RICEVI MISURAZIONE</string>
+    <string name="valigia_cerca_valigetta">CERCA DISPOSITIVO VALIGETTA</string>
+    <string name="valigia_misura_temperatura_result">Misura = %.2f °C</string>
+    <string name="valigia_misura_pressione_result">Misura = %.2f hPa</string>
+    <string name="valigia_misura_battiti_result">Misura = %.2f bpm</string>
+    <string name="valigia_btn_registra_valore_ricevuto">REGISTRA VALORE RICEVUTO</string>
+    <string name="valigia_valore_registrato_con_successo">Misurazione registrata con successo</string>
+    <string name="valigia_valore_non_registrato">Impossibile registrare la misurazione</string>
+    <string name="valigia_misura_ancora_non_fatta">Nessuna misurazione confermata dalla valigetta</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

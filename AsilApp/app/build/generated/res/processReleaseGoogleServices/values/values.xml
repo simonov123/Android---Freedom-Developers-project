@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://freedomdev-asilapp-2324-default-rtdb.europe-west1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">830853194548</string>
+    <string name="google_api_key" translatable="false">AIzaSyArCosAyyUE_Ha1fORIUzlKOyzzwP93qkI</string>
+    <string name="google_app_id" translatable="false">1:830853194548:android:725ccbbc2f3f192b727b61</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyArCosAyyUE_Ha1fORIUzlKOyzzwP93qkI</string>
+    <string name="google_storage_bucket" translatable="false">freedomdev-asilapp-2324.appspot.com</string>
+    <string name="project_id" translatable="false">freedomdev-asilapp-2324</string>
+</resources>

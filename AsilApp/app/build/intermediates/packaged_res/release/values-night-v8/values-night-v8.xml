@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_bar_color">#FF6666DD</color>
+    <color name="black">#FF000000</color>
+    <color name="color_data_attivata">#FFAAAAAA</color>
+    <color name="color_data_disattivata">#FF000000</color>
+    <color name="color_list">#FF330088</color>
+    <color name="color_panel">#FF222222</color>
+    <color name="cyan">#FF3333FF</color>
+    <color name="green">#FF00FF00</color>
+    <color name="grey">#FFAAAAAA</color>
+    <color name="primary">#FFCC00CC</color>
+    <color name="primary_variant_dark">#FF000099</color>
+    <color name="red">#FFFF0000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFFFDD00</color>
+    <style name="Base.Theme.AsilApp" parent="Theme.Material3.DayNight">
+        
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="android:statusBarColor">@color/primary_variant_dark</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+        
+    </style>
+    <style name="Base.Theme.AsilApp.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/primary_variant_dark</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+</resources>

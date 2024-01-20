@@ -29,6 +29,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -59,7 +60,6 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     private LocationManager locationManager;
     private double latitudine = 0.0;
     private double longitudine = 0.0;
-    private FirebaseUser user;
     private String userUid, userRole, userName, userSurname, userSesso;
     private OptionMenuUtility menuUtility;
     private DatabaseReference dbRootForUpdate;
@@ -70,29 +70,48 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Se non vi è alcun utente loggato, effettuo il logout
-        user = FirebaseAuth.getInstance().getCurrentUser();
+        /**
+         * All'inizio rendo non interagibile l'activity sin quando non recupero tutti i dati
+         * necessari dal database alla creazione del menù di opzioni (in onCreateOptionsMenu()).
+         * Il recupero dei dati dal Database richiede qualche secondo, e un'interazione istantanea
+         * con l'activity prima di tale recupero può portare ad un crash dell'app.
+         */
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE,
+                WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE);
+
+        /**
+         * Se non vi è alcun utente loggato, effettuo il logout
+         */
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         if (user == null) {
             Intent intent = new Intent(this, EntryActivity.class);
             startActivity(intent);
             finish();
+            return;
         }
         userUid = user.getUid();
         locationManager = (LocationManager) getApplicationContext().getSystemService(LOCATION_SERVICE);
 
-        //Gestisco l'action bar della Main Activity
+        /**
+         * Gestione dell'action bar relativa alla Main Activity
+         */
         ActionBar myBar = getSupportActionBar();
         if (myBar != null) {
-            myBar.setTitle("Home");
+            myBar.setTitle(" HOMEPAGE");
             myBar.setDisplayShowHomeEnabled(true);
-            myBar.setIcon(AppCompatResources.getDrawable(this, R.drawable.ic_medical_logo));
+            myBar.setIcon(AppCompatResources.getDrawable(this, R.drawable.asilapp_icon));
             myBar.setBackgroundDrawable(new ColorDrawable(ContextCompat.getColor(this, R.color.app_bar_color)));
         }
 
-        //Creo l'utility per gestire le scelte del menù di opzioni
+        /**
+         * Creazione dell'utility per gestire le scelte del menù di opzioni
+         */
         menuUtility = new OptionMenuUtility(this);
 
-        //Effettuo il collegamento fra pagerview e tab per lo slider orizzontale
+        /**
+         * Collegamento fra pagerView e Tab per la creazione dello slider orizzontale
+         * utilizzabile sia selezionando il tab che scrollando orizzontalmente le pagine
+         */
         TabLayout mainTab = findViewById(R.id.main_tab);
         ViewPager2 mainPager = findViewById(R.id.main_pager);
         PagerAdapter pagerAdapter = new PagerAdapter(getSupportFragmentManager(), getLifecycle());
@@ -120,7 +139,9 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
             }
         }).attach();
 
-        //Imposto le variabili utili per l'eventuale update del profilo
+        /**
+         * Impostazione delle variabili necessarie per l'eventuale update del profilo
+         */
         dbRootForUpdate = FirebaseDatabase.getInstance().getReference("Utenti").child(userUid).child("update");
         valueEventListenerForUpdate = new ValueEventListener() {
             @Override
@@ -138,11 +159,12 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
             public void onCancelled(@NonNull DatabaseError error) {}
         };
 
-        //Gestione del permesso per la posizione del device (NON OBBLIGATORIA)
+        /**
+         * Gestione del permesso all'avvio per la posizione del device (NON OBBLIGATORIA PER USARE L'APP)
+         */
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED
                 && ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
-            //ricavo la regione
-            getRegion();
+            getRegion(); //ricavo la regione
         } else {
             if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.ACCESS_FINE_LOCATION)) {
                 showPermissionRationale(REQUEST_CODE_FOR_LOCATION_STARTUP);
@@ -189,6 +211,10 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
                 } else {
                     inflater.inflate(R.menu.menu_action_bar, menu);
                 }
+                /**
+                 * Riabilito l'interazione con l'activity
+                 */
+                getWindow().clearFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE);
             }
             @Override
             public void onCancelled(@NonNull DatabaseError error) {}
@@ -208,7 +234,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
                             Manifest.permission.ACCESS_COARSE_LOCATION}, REQUEST_CODE_FOR_LOCATION_ACTION_BAR);
                 }
             } else {
-                activateGps(); //se non ho il gps attivato, vado all'attivazione
+                activateGps(); //se non ho il gps attivato, procedo con l'attivazione
                 callMaps();
             }
             return true;
@@ -232,6 +258,9 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         return userSesso;
     }
 
+    /**
+     * Metodo che serve per ricaricare l'activity a seguito di un aggiornamento
+     */
     public void reload() {
         Toast.makeText(this, R.string.option_menu_update_completed, Toast.LENGTH_SHORT).show();
         startActivity(getIntent());
@@ -309,13 +338,16 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
             case REQUEST_CODE_FOR_LOCATION_ACTION_BAR:
                 if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                     activateGps(); //se non ho il gps attivato, vado all'attivazione
+                    getRegion();
                     callMaps();
                 }
                 break;
         }
     }
 
-    // Metodo per la lettura della regione una volta avuto il permesso della geolocalizzazione
+    /**
+     * Metodo per la lettura della regione una volta avuto il permesso per la geolocalizzazione
+     */
     private void getRegion() {
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED ||
                 ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
@@ -329,7 +361,9 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         }
     }
 
-    // Metodo invocato quando locationManager legge una posizione
+    /**
+     * Metodo invocato quando il locationManager legge una posizione
+     */
     @Override
     public void onLocationChanged(@NonNull Location location) {
         try {
@@ -376,10 +410,10 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
      * Metodo invocato quando l'utente accede manualmente alla funzionalità che richiede la posizione.
      * Tale metodo non viene invocato all'avvio dell'app e viene considerato come richiesta diversa
      * per via del fatto che in caso di mancato consenso da parte dell'utente viene mostrato un banner
-     * di avviso che non si vuole mostrare ad ogni avvio dell'app
+     * di avviso che non si vuole mostrare ad ogni avvio dell'app.
+     * L'invocazione avviene solo nel caso in cui non ho ancora il permesso per accedere alla posizione
+     * o se ho già il permesso ma il gps non è stato attivato manualmente
      */
-    // Metodo invocato solo nel caso in cui non ho ancora il permesso per accedere alla posizione
-    // o se il gps non è stato attivato manualmente
     public void askExplicitPermissionForLocationInInfo(){
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED
                 || ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
@@ -394,7 +428,9 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         }
     }
 
-    // Metodo per attivare manualmente il gps
+    /**
+     * Metodo per attivare manualmente il gps
+     */
     private void activateGps(){
         if (locationManager != null && !locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
             Intent activateGpsIntent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
@@ -402,7 +438,9 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         }
     }
 
-    // Metodo per richiamare il servizio di mapping
+    /**
+     * Metodo per richiamare il servizio di mapping (tramite l'icona di sistema apposita)
+     */
     private void callMaps(){
         // L'utente prima decide cosa cercare
         String[] scelte_possibili = getResources().getStringArray(R.array.maps_luoghi_interesse);

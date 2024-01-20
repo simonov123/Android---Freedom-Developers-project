@@ -23,18 +23,16 @@ import it.uniba.dib.sms232412.R;
 public class ListaMieMalattieAdapter extends BaseAdapter {
 
     final private List<String> listaMalattiePersonali;
-    final private List<String> listaSuggerimentiMalattie;
     final private MainActivity context;
     final private MalattieFragment parentFragment;
     final private int layout_single_line;
     final private DatabaseReference dbRootMalattieUtente;
 
-    public ListaMieMalattieAdapter(@NonNull MainActivity context, @NonNull MalattieFragment parentFragment, int layout_single_line, List<String> listaMalattiePersonali, List<String> listaSuggerimentiMalattie){
+    public ListaMieMalattieAdapter(@NonNull MainActivity context, @NonNull MalattieFragment parentFragment, int layout_single_line, List<String> listaMalattiePersonali){
         this.context = context;
         this.parentFragment = parentFragment;
         this.layout_single_line = layout_single_line;
         this.listaMalattiePersonali = listaMalattiePersonali;
-        this.listaSuggerimentiMalattie = listaSuggerimentiMalattie;
         dbRootMalattieUtente = FirebaseDatabase.getInstance().getReference("Utenti").child(context.getUserUid()).child("malattie");
     }
 
@@ -59,20 +57,46 @@ public class ListaMieMalattieAdapter extends BaseAdapter {
         }
 
         // Imposto il testo per la malattia e i suggerimenti legati alla malattia
-        String nomeMalattia = listaMalattiePersonali.get(position);
+        String nomeMalattiaKey = listaMalattiePersonali.get(position);
         TextView textMalattia = convertView.findViewById(R.id.nome_malattia);
         TextView textSuggerimento = convertView.findViewById(R.id.consigli_malattia);
-        textMalattia.setText(nomeMalattia);
-        textSuggerimento.setText(listaSuggerimentiMalattie.get(position));
+        /**
+         * nomeMalattiaKey è la chiave del db su Firebase (sezione malattie) ed è sempre in lingua italiana.
+         * In base alla chiave assegno quindi le stringhe (gestite tramite il multilingua di Android)
+         */
+        String malattia = "";
+        switch(nomeMalattiaKey){
+            case "FEBBRE ALTA":
+                malattia = context.getResources().getStringArray(R.array.tutte_le_malattie)[0];
+                textMalattia.setText(malattia);
+                textSuggerimento.setText(context.getResources().getStringArray(R.array.tutte_le_malattie_consigli)[0]);
+                break;
+            case "SEPSI PUERPERALE":
+                malattia = context.getResources().getStringArray(R.array.tutte_le_malattie)[1];
+                textMalattia.setText(malattia);
+                textSuggerimento.setText(context.getResources().getStringArray(R.array.tutte_le_malattie_consigli)[1]);
+                break;
+            case "IPERTENSIONE":
+                malattia = context.getResources().getStringArray(R.array.tutte_le_malattie)[2];
+                textMalattia.setText(malattia);
+                textSuggerimento.setText(context.getResources().getStringArray(R.array.tutte_le_malattie_consigli)[2]);
+                break;
+            case "TACHICARDIA":
+                malattia = context.getResources().getStringArray(R.array.tutte_le_malattie)[3];
+                textMalattia.setText(malattia);
+                textSuggerimento.setText(context.getResources().getStringArray(R.array.tutte_le_malattie_consigli)[3]);
+                break;
+        }
 
         // Imposto il tasto per eliminare la malattia dalla lista delle malattie personali
         ImageButton deleteBtn = convertView.findViewById(R.id.btn_delete);
+        String textDeleteMalattia = malattia;
         deleteBtn.setOnClickListener(v -> {
             AlertDialog.Builder builder = new AlertDialog.Builder(context);
             builder.setTitle(context.getString(R.string.malattie_rimuovi_malattia_titolo))
-                    .setMessage(context.getString(R.string.malattie_rimuovi_malattia_msg, nomeMalattia))
+                    .setMessage(context.getString(R.string.malattie_rimuovi_malattia_msg, textDeleteMalattia))
                     .setPositiveButton(R.string.option_menu_yes, (dialog, which) -> {
-                        DatabaseReference dbRootMalattiaSpecifica = dbRootMalattieUtente.child(nomeMalattia);
+                        DatabaseReference dbRootMalattiaSpecifica = dbRootMalattieUtente.child(nomeMalattiaKey);
                         dbRootMalattiaSpecifica.removeValue();
                         Toast.makeText(context, context.getString(R.string.malattie_rimozione_con_successo), Toast.LENGTH_SHORT).show();
                         parentFragment.updateMieMalattie();
@@ -86,11 +110,9 @@ public class ListaMieMalattieAdapter extends BaseAdapter {
         return convertView;
     }
 
-    public void rimpiazzaLista(List<String> nuovaListaMalattie, List<String> nuovaListaSuggerimenti){
+    public void rimpiazzaLista(List<String> nuovaListaMalattie){
         listaMalattiePersonali.clear();
         listaMalattiePersonali.addAll(nuovaListaMalattie);
-        listaSuggerimentiMalattie.clear();
-        listaSuggerimentiMalattie.addAll(nuovaListaSuggerimenti);
         notifyDataSetChanged();
     }
 }

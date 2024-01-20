@@ -70,8 +70,8 @@ public class ValigettaStep1TrovaUtenteFragment extends Fragment {
         });
 
         listViewUser.setOnItemClickListener((parent, view1, position, id) -> {
-            parentActivity.setChosenUser((Utente)adapter.getItem(position));
-
+            parentActivity.setChosenUser((Utente) adapter.getItem(position));
+            parentActivity.changeToStep(2);
         });
 
         // Gestione ricerca da barra di testo

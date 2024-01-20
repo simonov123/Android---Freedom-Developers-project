@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entry_login_rapido_scelte">
+        <item>Admin</item>
+        <item>Healthcare Personnel</item>
+        <item>Male User</item>
+        <item>Female User</item>
+    </string-array>
+    <string-array name="info_region_description">
+        <item>Mountains and the Adriatic coast, with the Gran Sasso and medieval villages such as Santo Stefano di Sessanio.</item>
+        <item>Calanchi and Matera with their stones characterize this region nestled among the rocks.</item>
+        <item>Pristine beaches, Aspromonte for excursions and a rich food and wine culture.</item>
+        <item>Italian cultural heart with Napoli, the Amalfi Coast and the ruins of Pompei.</item>
+        <item>High-level gastronomy, Bologna with its towers and the Romagna Riviera for the sea.</item>
+        <item>On the border with Austria and Slovenia, Trieste and the Collio vineyards characterize the region.</item>
+        <item>Rome with the Colosseum, Roman Forum and the Lazio countryside with Renaissance villas.</item>
+        <item>Coast overlooking the sea, Cinque Terre and Genoa with its historic center and aquarium.</item>
+        <item>Italian economic center with Milan, Lake Como and art cities such as Bergamo.</item>
+        <item>Hills, medieval villages and cities of art such as Urbino characterize this region.</item>
+        <item>Small and intimate, with mountain views and the village of Agnone famous for its bells.</item>
+        <item>Famous for the wines and hills of the Langhe, Turin with the Egyptian Museum.</item>
+        <item>White beaches, trulli in Alberobello and the beauty of Salento.</item>
+        <item>Paradise beaches, wild hinterland and authentic traditions.</item>
+        <item>Melting pot of cultures, with Palermo, Etna and the Valley of the Temples in Agrigento.</item>
+        <item>Hills, vineyards and cities of art such as Florence, Siena and Pisa.</item>
+        <item>Breathtaking mountain landscapes with Bolzano and mountain lakes.</item>
+        <item>Green and lush, with medieval villages, Perugia, Assisi and Lake Trasimeno.</item>
+        <item>In the heart of the Alps, with spectacular views of the Matterhorn and Mont Blanc, Aosta with Roman remains.</item>
+        <item>Venice and Verona, cities of art. Dolomites for mountain landscapes and Prosecco for a food and wine experience.</item>
+    </string-array>
+    <string-array name="malattie_femminili_lista">
+        <item>HIGH FEVER</item>
+        <item>PUERPERAL SEPSIS</item>
+        <item>HYPERTENSION</item>
+        <item>TACHYCARDIA</item>
+    </string-array>
+    <string-array name="malattie_femminili_lista_descrizioni">
+        <item>Very hot forehead, tiredness, chills and headache.</item>
+        <item>Uterus pain, malaise, loss of appetite, very high fever.</item>
+        <item>Sudden headache, dizziness, cold sweats.</item>
+        <item>Chest palpitation, dizziness, sudden weakness.</item>
+    </string-array>
+    <string-array name="malattie_maschili_lista">
+        <item>HIGH FEVER</item>
+        <item>HYPERTENSION</item>
+        <item>TACHYCARDIA</item>
+    </string-array>
+    <string-array name="malattie_maschili_lista_descrizioni">
+        <item>Very hot forehead, tiredness, chills and headache.</item>
+        <item>Sudden headache, dizziness, cold sweats.</item>
+        <item>Chest palpitation, dizziness, sudden weakness.</item>
+    </string-array>
+    <string-array name="maps_luoghi_interesse">
+        <item>Hospital</item>
+        <item>Pharmacy</item>
+        <item>Post office</item>
+        <item>Municipal office</item>
+        <item>Restaurant</item>
+        <item>School</item>
+        <item>Church</item>
+    </string-array>
+    <string-array name="regioni_italiane">
+        <item>Abruzzo</item>
+        <item>Basilicata</item>
+        <item>Calabria</item>
+        <item>Campania</item>
+        <item>Emilia Romagna</item>
+        <item>Friuli Venezia Giulia</item>
+        <item>Lazio</item>
+        <item>Liguria</item>
+        <item>Lombardia</item>
+        <item>Marche</item>
+        <item>Molise</item>
+        <item>Piemonte</item>
+        <item>Puglia</item>
+        <item>Sardegna</item>
+        <item>Sicilia</item>
+        <item>Toscana</item>
+        <item>Trentino Alto Adige</item>
+        <item>Umbria</item>
+        <item>Val D\u0027Aosta</item>
+        <item>Veneto</item>
+    </string-array>
+    <string-array name="spese_lista_tipologie">
+        <item>Medicines</item>
+        <item>Food</item>
+        <item>Clothing</item>
+        <item>Household items</item>
+        <item>Books</item>
+        <item>Technology</item>
+        <item>Fun</item>
+    </string-array>
+    <string-array name="spese_lista_tipologie_piu_tutto">
+        <item>All</item>
+        <item>Medicines</item>
+        <item>Food</item>
+        <item>Clothing</item>
+        <item>Household items</item>
+        <item>Books</item>
+        <item>Technology</item>
+        <item>Fun</item>
+    </string-array>
+    <string-array name="tutte_le_malattie">
+        <item>HIGH FEVER</item>
+        <item>PUERPERAL SEPSIS</item>
+        <item>HYPERTENSION</item>
+        <item>TACHYCARDIA</item>
+    </string-array>
+    <string-array name="tutte_le_malattie_consigli">
+        <item>Stay at rest, don\u0027t get cold, drink plenty of fluids and eat healthily.</item>
+        <item>Contact a healthcare provider to get an antibiotic prescription.</item>
+        <item>Reduce the consumption of alcohol, salt and salty foods. Don\u0027t smoke and do regular physical activity.</item>
+        <item>Contact a healthcare professional, relax and concentrate on breathing. Also do physical activity.</item>
+    </string-array>
+    <string name="admin_accetta_richiesta">Confirm the request</string>
+    <string name="admin_list_request_empty">There are no requirements to register as a healthcare professional</string>
+    <string name="admin_list_request_title">List of requests to register as healthcare personnel</string>
+    <string name="admin_page_title">Admin Page</string>
+    <string name="admin_rifiuta_richiesta">Reject the request</string>
+    <string name="admin_single_request_codiceFiscale">Tax ID: %s</string>
+    <string name="admin_single_request_email">Email: %s</string>
+    <string name="admin_single_request_istituzione">Institution: %s</string>
+    <string name="admin_single_request_nomeCompleto">Name: %s</string>
+    <string name="admin_single_request_professione">Profession: %s</string>
+    <string name="admin_single_request_regione">Region: %s</string>
+    <string name="anagrafica_battiti_misure">Heartbeats [bpm]:</string>
+    <string name="anagrafica_battiti_no_misure">No heartbeats measurement.</string>
+    <string name="anagrafica_femmina">Female</string>
+    <string name="anagrafica_mail">\u0020 E-mail: \u0020</string>
+    <string name="anagrafica_maschio">Male</string>
+    <string name="anagrafica_misurazioni_titolo">\u0020 Measurements made by healthcare personnel</string>
+    <string name="anagrafica_name">\u0020 Name: \u0020</string>
+    <string name="anagrafica_pressione_misure">Pressure [hPa]:</string>
+    <string name="anagrafica_pressione_no_misure">No pressure measurement.</string>
+    <string name="anagrafica_regione">\u0020 Region: \u0020</string>
+    <string name="anagrafica_regione_non_specificata">Not specified</string>
+    <string name="anagrafica_ruolo">\u0020 Role: \u0020</string>
+    <string name="anagrafica_ruolo_admin">Admin</string>
+    <string name="anagrafica_ruolo_ps">Healthcare personnel</string>
+    <string name="anagrafica_ruolo_ps_admin">Admin + Healthcare personnel</string>
+    <string name="anagrafica_ruolo_utente">Asilapp User</string>
+    <string name="anagrafica_sesso">\u0020 Gender: \u0020</string>
+    <string name="anagrafica_surname">\u0020 Surname: \u0020</string>
+    <string name="anagrafica_temperatura_misure">Temperature [°C]:</string>
+    <string name="anagrafica_temperatura_no_misure">No temperature measurements.</string>
+    <string name="app_name">AsilApp</string>
+    <string name="entry_btn_login">LOG IN</string>
+    <string name="entry_btn_register">SIGN IN</string>
+    <string name="entry_btn_to_register">REGISTER WITH ASILAPP</string>
+    <string name="entry_choice_gender">You must select your gender</string>
+    <string name="entry_different_password">The two passwords must be the same</string>
+    <string name="entry_email">Email</string>
+    <string name="entry_empty_mail">You must enter your email</string>
+    <string name="entry_empty_name">You must enter your name</string>
+    <string name="entry_empty_password">You must enter the password</string>
+    <string name="entry_empty_surname">You must enter your surname</string>
+    <string name="entry_femmina">FEMALE</string>
+    <string name="entry_login_failed">Failed authentication</string>
+    <string name="entry_login_rapido_button">DIRECT ACCESS</string>
+    <string name="entry_login_rapido_domanda">What type of account do you want to log in with?</string>
+    <string name="entry_login_success">Authentication successful</string>
+    <string name="entry_login_title">ENTER ASILAPP</string>
+    <string name="entry_maschio">MALE</string>
+    <string name="entry_name">Name</string>
+    <string name="entry_password">Password</string>
+    <string name="entry_password_confirm">Confirm Password</string>
+    <string name="entry_register_failed">Unable to register account</string>
+    <string name="entry_register_success">Account successfully registered</string>
+    <string name="entry_register_title">REGISTER IN ASILAPP</string>
+    <string name="entry_short_password">The password must be at least 6 characters</string>
+    <string name="entry_surname">Surname</string>
+    <string name="info_btn_search_for_region">Find your region</string>
+    <string name="info_btn_search_for_region_denied_msg">To access this functionality you must confer
+        permission from system settings.</string>
+    <string name="info_btn_search_for_region_denied_title">Permission denied</string>
+    <string name="info_btn_search_for_region_ok_alert">Please wait for update</string>
+    <string name="info_emergency_btn">EMERGENCY NUMBERS IN ITALY</string>
+    <string name="info_emergency_number_description">\n112 - Carabineer\n\n113 - Police\n\n114 - Childhood\n\n115 - Fire Fighters\n\n118 - Hospital</string>
+    <string name="info_voto_asilapp_title">Evaluate AsilApp</string>
+    <string name="info_voto_medio"> Average user rating: %d/5</string>
+    <string name="info_voto_medio_inesistente">No votes given by users</string>
+    <string name="info_voto_regione_title">Evaluate the region %s</string>
+    <string name="info_voto_result">%d/5</string>
+    <string name="malattie_aggiunta_con_successo">Illness added successfully</string>
+    <string name="malattie_cerca_title">SEARCH YOUR ILLNESSES</string>
+    <string name="malattie_confermare_malattia">You confirm that you have %s?</string>
+    <string name="malattie_gia_possedute">You have already registered this illness</string>
+    <string name="malattie_rimozione_con_successo">Illness successfully removed</string>
+    <string name="malattie_rimuovi_malattia_msg">Do you want to remove %s from the list of your illnesses?</string>
+    <string name="malattie_rimuovi_malattia_titolo">Remove illness</string>
+    <string name="malattie_title">MY ILLNESSES</string>
+    <string name="maps_chooser_scegli_app">How do you want to open the map?</string>
+    <string name="maps_domanda">What place do you want to search?</string>
+    <string name="option_menu_admin_page">Administrator Page</string>
+    <string name="option_menu_aggiorna_pagina">Update App</string>
+    <string name="option_menu_delete_account">Delete Account</string>
+    <string name="option_menu_delete_account_msg">Are you sure you want to delete your account? If you proceed the action will be irreversible</string>
+    <string name="option_menu_delete_account_title">Confirm deletion</string>
+    <string name="option_menu_delete_failed">Unable to delete account</string>
+    <string name="option_menu_delete_success">Account successfully deleted</string>
+    <string name="option_menu_logout">Logout</string>
+    <string name="option_menu_logout_confirm">Logout successfully</string>
+    <string name="option_menu_no">No</string>
+    <string name="option_menu_update">UPDATE</string>
+    <string name="option_menu_update_completed">Profile updated</string>
+    <string name="option_menu_yes">Yes</string>
+    <string name="pager_tab1">Profile</string>
+    <string name="pager_tab2">Illnesses</string>
+    <string name="pager_tab3">Explore</string>
+    <string name="pager_tab4">Expenses</string>
+    <string name="permission_ok">OK</string>
+    <string name="permission_text_rationale_coarse_location">
+        In order to provide you with more precise information about your area we need to know your location.</string>
+    <string name="permission_title_rationale_coarse_location">Permission for your location</string>
+    <string name="ps_are_you_doctor_msg">If you proceed you will be asked for other data for the sole purpose of
+        carry out further checks by administrators.</string>
+    <string name="ps_are_you_doctor_title">Are you part of the healthcare personnel?</string>
+    <string name="ps_attiva_visibility_msg">If you select Yes, you will share the following data with them:
+        Name, Surname, Email, Profession, Institution and Region.</string>
+    <string name="ps_attiva_visibility_title">Do you want to become visible to other users?</string>
+    <string name="ps_button_annulla_config">Cancel</string>
+    <string name="ps_button_modify_request_of_register_as_ps">Change registration request</string>
+    <string name="ps_button_modify_setting_as_ps">Change settings as a healthcare personnel</string>
+    <string name="ps_button_register_as_ps">Register as a healthcare personnel</string>
+    <string name="ps_choice_visibility">I want to be visible to other users in the staff list</string>
+    <string name="ps_elimina_richiesta">Delete request</string>
+    <string name="ps_elimina_richiesta_msg">Do you want to delete your request to register as a healthcare personnel?</string>
+    <string name="ps_invia_richiesta">Send request</string>
+    <string name="ps_invia_richiesta_completata_msg">Your request has been forwarded. When an
+        administrator will accept your request, your profile will be updated</string>
+    <string name="ps_invia_richiesta_completata_title">Request sent</string>
+    <string name="ps_invia_richiesta_error_codice_fiscale">Incorrect tax code</string>
+    <string name="ps_invia_richiesta_error_istituzione">Enter a health institution</string>
+    <string name="ps_invia_richiesta_error_professione">Enter a profession</string>
+    <string name="ps_invio_dati_messaggio">My illnesses:\n</string>
+    <string name="ps_invio_dati_titolo_scegli_app">Which app do you want to send the data with?</string>
+    <string name="ps_modifica_richiesta_save">Save changes</string>
+    <string name="ps_modifica_status_titolo">Change status from healthcare personnel</string>
+    <string name="ps_option_search">Search for healthcare personnel</string>
+    <string name="ps_register_codice_fiscale">Tax ID code</string>
+    <string name="ps_register_istituzione">Health Institution</string>
+    <string name="ps_register_professione">Profession</string>
+    <string name="ps_register_region_description">Region\ninstitution:</string>
+    <string name="ps_ricerca_personale_ogni_regione">Search all regions</string>
+    <string name="ps_ricerca_personale_send_btn">Submit your data</string>
+    <string name="ps_richiesta_eliminata_confirm">The request has been deleted</string>
+    <string name="ps_richiesta_modificata_confirm">The changes have been saved</string>
+    <string name="ps_titolo">Healthcare Personnel</string>
+    <string name="spese_aggiungi_spesa_titolo">Add a new expense</string>
+    <string name="spese_aggiunta_fallimento">Unable to add expense</string>
+    <string name="spese_aggiunta_successo">Expense added successfully</string>
+    <string name="spese_alert_inserire_costo">You must enter a cost</string>
+    <string name="spese_calcola_spese_from">From: </string>
+    <string name="spese_calcola_spese_titolo">Calculate your expenses</string>
+    <string name="spese_calcola_spese_to">To: </string>
+    <string name="spese_content_fab_add">ADD EXPENSE</string>
+    <string name="spese_content_fab_calculate">CALCULATE EXPENSE</string>
+    <string name="spese_costo_euro">Cost (€)</string>
+    <string name="spese_data_btn_content">Select date</string>
+    <string name="spese_data_selezionata">Date: %s</string>
+    <string name="spese_delete_btn_content">Delete expense</string>
+    <string name="spese_delete_spesa">Cancel expense</string>
+    <string name="spese_delete_spesa_content">Are you sure you want to eliminate the expense?</string>
+    <string name="spese_delete_spesa_titolo">Confirm deletion</string>
+    <string name="spese_elemento_lista_costo">Cost: %.2f €</string>
+    <string name="spese_elemento_lista_data">Date: %s</string>
+    <string name="spese_elemento_lista_tipo">Type: %s</string>
+    <string name="spese_lista_non_vuota_msg">LIST OF RECORDED EXPENSES</string>
+    <string name="spese_lista_vuota_msg">YOU HAVE NO RECORDED EXPENSES</string>
+    <string name="spese_risultato_calcolo_spesa">Total spending: %.2f €</string>
+    <string name="spese_seleziona_ogni_data">Select all dates</string>
+    <string name="valigia_bt_non_abilitato">The device does not support Bluetooth</string>
+    <string name="valigia_bt_rationale_msg">In order to use the services of the medical case it is necessary to use the device\u0027s Bluetooth.</string>
+    <string name="valigia_bt_rationale_title">Permission to use bluetooth</string>
+    <string name="valigia_bt_versione_device_non_valida">You need an Android version 12 or higher for this feature</string>
+    <string name="valigia_btn_registra_valore_ricevuto">RECORD VALUE RECEIVED</string>
+    <string name="valigia_cerca_valigetta">SEARCH FOR MEDICAL CASE DEVICE</string>
+    <string name="valigia_collegamento_riuscito">Successful connection with the medical case</string>
+    <string name="valigia_misura_ancora_non_fatta">No measurements confirmed by the medical case</string>
+    <string name="valigia_misura_battiti_result">Measure = %.2f bpm</string>
+    <string name="valigia_misura_pressione_result">Measure = %.2f hPa</string>
+    <string name="valigia_misura_temperatura_result">Measure = %.2f °C</string>
+    <string name="valigia_ricevi_valore_da_valigetta_btn">GET MEASUREMENT</string>
+    <string name="valigia_scelta_sensore">What do you want to measure for the chosen user?</string>
+    <string name="valigia_search_user">Search User</string>
+    <string name="valigia_search_user_title">Which user do you need to measure?</string>
+    <string name="valigia_sensore_battiti">HEART BEAT</string>
+    <string name="valigia_sensore_pressione">PRESSURE</string>
+    <string name="valigia_sensore_selezionato">Measurement: %s</string>
+    <string name="valigia_sensore_temperatura">TEMPERATURE</string>
+    <string name="valigia_title">Medical Case</string>
+    <string name="valigia_utente_scelto">User selected: %s</string>
+    <string name="valigia_utente_scelto_malattie">Illnesses: %s</string>
+    <string name="valigia_utente_scelto_nessuna_malattia">None</string>
+    <string name="valigia_valore_non_registrato">Unable to record measurement</string>
+    <string name="valigia_valore_registrato_con_successo">Measurement recorded successfully</string>
+</resources>

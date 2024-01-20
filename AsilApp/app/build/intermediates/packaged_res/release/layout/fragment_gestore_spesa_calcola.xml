@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gestioneSpese.GestoreSpesaCalcolaFragment">
+
+    <TextView
+        android:id="@+id/txt_calcola_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spese_calcola_spese_titolo"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5sp"/>
+
+    <TextView
+        android:id="@+id/txt_calcola_data_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spese_calcola_spese_from"
+        android:textSize="25sp"
+        android:layout_below="@+id/txt_calcola_title"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/txt_calcola_data_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spese_calcola_spese_to"
+        android:textSize="25sp"
+        android:layout_below="@+id/btn_data_start"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"/>
+
+    <ImageButton
+        android:id="@+id/btn_data_start"
+        android:layout_width="@dimen/image_button_size"
+        android:layout_height="@dimen/image_button_size"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_calendar_logo"
+        android:layout_below="@id/txt_calcola_title"
+        android:layout_toEndOf="@+id/txt_calcola_data_from"
+        android:contentDescription="@string/spese_data_btn_content"/>
+
+    <ImageButton
+        android:id="@+id/btn_data_end"
+        android:layout_width="@dimen/image_button_size"
+        android:layout_height="@dimen/image_button_size"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_calendar_logo"
+        android:layout_below="@+id/btn_data_start"
+        android:layout_toEndOf="@+id/txt_calcola_data_from"
+        android:contentDescription="@string/spese_data_btn_content"/>
+
+    <TextView
+        android:id="@+id/data_start_selezionata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_below="@+id/txt_calcola_title"
+        android:layout_toEndOf="@id/btn_data_start"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/data_end_selezionata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_toEndOf="@id/btn_data_start"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/btn_data_start"
+        android:layout_marginTop="20dp"/>
+
+    <CheckBox
+        android:id="@+id/check_all_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spese_seleziona_ogni_data"
+        android:textSize="20sp"
+        android:layout_below="@+id/btn_data_end"
+        android:layout_marginStart="5sp"/>
+
+    <RelativeLayout
+        android:id="@+id/container_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:elevation="8dp"
+        android:background="@color/color_list"
+        android:layout_below="@+id/check_all_date"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp">
+        <Spinner
+            android:id="@+id/type_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_calcola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/container_spinner"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15sp"
+        android:text="@string/spese_content_fab_calculate" />
+
+    <TextView
+        android:id="@+id/risultato_calcolo_spesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_calcola"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="10sp"
+        android:text=""
+        android:textSize="25sp"/>
+
+</RelativeLayout>

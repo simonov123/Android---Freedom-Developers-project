@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".valigettaMedica.ValigettaStep3ComunicaConValigettaFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:background="@color/color_panel"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/chosen_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:textSize="@dimen/normal_text_size"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/chosen_user_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:textSize="@dimen/normal_text_size"
+            android:layout_marginTop="10dp"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/chosen_user_malattie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:textSize="@dimen/normal_text_size"
+            android:layout_marginTop="10dp"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/chosen_sensore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:textSize="@dimen/normal_text_size"
+            android:layout_marginTop="10dp"
+            android:text=""/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/prova_btn_client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valigia_cerca_valigetta" />
+
+    <ListView
+        android:id="@+id/lista_device_trovati"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"/>
+
+    <Button
+        android:id="@+id/btn_ricevi_valore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valigia_ricevi_valore_da_valigetta_btn"/>
+
+    <TextView
+        android:id="@+id/testo_valore_ricevuto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/normal_text_size"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/btn_registra_valore_ricevuto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valigia_btn_registra_valore_ricevuto"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"/>
+
+
+
+</LinearLayout>

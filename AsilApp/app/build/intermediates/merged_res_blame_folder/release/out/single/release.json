@@ -1,0 +1,778 @@
+[
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-anydpi_ic_confirm_logo.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-anydpi\\ic_confirm_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xxxhdpi_ic_healthcare_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xxxhdpi\\ic_healthcare_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_lista_spese_single_element_layout.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\lista_spese_single_element_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xhdpi_ic_video_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xhdpi\\ic_video_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_lista_utenti_single_element_layout.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\lista_utenti_single_element_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-mdpi_ic_add_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-mdpi\\ic_add_logo.png"
+    },
+    {
+        "merged": "it.uniba.dib.sms232412.app-merged_res-39:/mipmap-mdpi_asilapp_launcher_round.webp.flat",
+        "source": "it.uniba.dib.sms232412.app-main-40:/mipmap-mdpi/asilapp_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_fragment_malattie.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\fragment_malattie.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable_region_campania.jpg.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable\\region_campania.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-hdpi_ic_close_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-hdpi\\ic_close_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-mdpi_ic_user_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-mdpi\\ic_user_logo.png"
+    },
+    {
+        "merged": "it.uniba.dib.sms232412.app-merged_res-39:/mipmap-xxhdpi_asilapp_launcher_round.webp.flat",
+        "source": "it.uniba.dib.sms232412.app-main-40:/mipmap-xxhdpi/asilapp_launcher_round.webp"
+    },
+    {
+        "merged": "it.uniba.dib.sms232412.app-merged_res-39:/mipmap-mdpi_asilapp_launcher.webp.flat",
+        "source": "it.uniba.dib.sms232412.app-main-40:/mipmap-mdpi/asilapp_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_activity_entry.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\activity_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-hdpi_ic_alert_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-hdpi\\ic_alert_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xhdpi_ic_play_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xhdpi\\ic_play_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-mdpi_ic_send_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-mdpi\\ic_send_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-mdpi_ic_spesa_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-mdpi\\ic_spesa_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xxhdpi_ic_calendar_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xxhdpi\\ic_calendar_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_activity_valigetta.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\activity_valigetta.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-mdpi_ic_confirm_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-mdpi\\ic_confirm_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xxhdpi_ic_delete_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xxhdpi\\ic_delete_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_lista_malattie_personali_single_element_layout.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\lista_malattie_personali_single_element_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_fragment_personale_sanitario_modifica_richiesta.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\fragment_personale_sanitario_modifica_richiesta.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xxhdpi_ic_close_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xxhdpi\\ic_close_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_activity_personale_sanitario.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\activity_personale_sanitario.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-mdpi_ic_illness_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-mdpi\\ic_illness_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-anydpi_ic_user_logo.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-anydpi\\ic_user_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-hdpi_ic_calculate_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-hdpi\\ic_calculate_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_fragment_valigetta_step1_trova_utente.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\fragment_valigetta_step1_trova_utente.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xhdpi_ic_medical_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xhdpi\\ic_medical_logo.png"
+    },
+    {
+        "merged": "it.uniba.dib.sms232412.app-merged_res-39:/mipmap-hdpi_asilapp_launcher.webp.flat",
+        "source": "it.uniba.dib.sms232412.app-main-40:/mipmap-hdpi/asilapp_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xhdpi_ic_delete_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xhdpi\\ic_delete_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-mdpi_ic_delete_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-mdpi\\ic_delete_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_fragment_info_votation.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\fragment_info_votation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable_region_umbria.jpg.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable\\region_umbria.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-hdpi_ic_add_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-hdpi\\ic_add_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xxhdpi_ic_alert_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xxhdpi\\ic_alert_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-mdpi_ic_video_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-mdpi\\ic_video_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xxhdpi_ic_calculate_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xxhdpi\\ic_calculate_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable_region_veneto.jpg.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable\\region_veneto.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-hdpi_ic_medical_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-hdpi\\ic_medical_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_fragment_gestore_spesa_calcola.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\fragment_gestore_spesa_calcola.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\anim_anim_enter_from_right.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\anim\\anim_enter_from_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-anydpi_ic_illness_logo.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-anydpi\\ic_illness_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xxhdpi_ic_medical_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xxhdpi\\ic_medical_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable_region_puglia.jpg.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable\\region_puglia.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-anydpi_ic_pause_logo.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-anydpi\\ic_pause_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-hdpi_ic_location_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-hdpi\\ic_location_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xhdpi_ic_add_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xhdpi\\ic_add_logo.png"
+    },
+    {
+        "merged": "it.uniba.dib.sms232412.app-merged_res-39:/layout_fragment_login.xml.flat",
+        "source": "it.uniba.dib.sms232412.app-main-40:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xxhdpi_ic_send_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xxhdpi\\ic_send_logo.png"
+    },
+    {
+        "merged": "it.uniba.dib.sms232412.app-merged_res-39:/mipmap-xxhdpi_asilapp_launcher_foreground.webp.flat",
+        "source": "it.uniba.dib.sms232412.app-main-40:/mipmap-xxhdpi/asilapp_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-hdpi_ic_search_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-hdpi\\ic_search_logo.png"
+    },
+    {
+        "merged": "it.uniba.dib.sms232412.app-merged_res-39:/layout_fragment_anagrafica.xml.flat",
+        "source": "it.uniba.dib.sms232412.app-main-40:/layout/fragment_anagrafica.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable_region_calabria.jpg.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable\\region_calabria.jpg"
+    },
+    {
+        "merged": "it.uniba.dib.sms232412.app-merged_res-39:/mipmap-anydpi-v26_asilapp_launcher_round.xml.flat",
+        "source": "it.uniba.dib.sms232412.app-main-40:/mipmap-anydpi-v26/asilapp_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-mdpi_ic_calendar_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-mdpi\\ic_calendar_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xhdpi_ic_send_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xhdpi\\ic_send_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-mdpi_ic_pause_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-mdpi\\ic_pause_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xxhdpi_ic_confirm_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xxhdpi\\ic_confirm_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xxhdpi_ic_explore_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xxhdpi\\ic_explore_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xxhdpi_ic_healthcare_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xxhdpi\\ic_healthcare_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-hdpi_ic_delete_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-hdpi\\ic_delete_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-mdpi_ic_play_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-mdpi\\ic_play_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-hdpi_ic_send_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-hdpi\\ic_send_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable_region_marche.jpg.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable\\region_marche.jpg"
+    },
+    {
+        "merged": "it.uniba.dib.sms232412.app-merged_res-39:/layout_fragment_valigetta_step3_comunica_con_valigetta.xml.flat",
+        "source": "it.uniba.dib.sms232412.app-main-40:/layout/fragment_valigetta_step3_comunica_con_valigetta.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xxhdpi_ic_illness_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xxhdpi\\ic_illness_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable_region_abruzzo.jpg.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable\\region_abruzzo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xhdpi_ic_explore_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xhdpi\\ic_explore_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-anydpi_ic_location_logo.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-anydpi\\ic_location_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-anydpi_ic_send_logo.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-anydpi\\ic_send_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-anydpi_ic_medical_logo.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-anydpi\\ic_medical_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-hdpi_ic_calendar_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-hdpi\\ic_calendar_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable_region_trentino_alto_adige.jpg.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable\\region_trentino_alto_adige.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable_region_molise.jpg.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable\\region_molise.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_fragment_gestore_spesa_add.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\fragment_gestore_spesa_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xxhdpi_ic_pause_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xxhdpi\\ic_pause_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-anydpi_ic_delete_logo.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-anydpi\\ic_delete_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-anydpi_ic_play_logo.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-anydpi\\ic_play_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xhdpi_ic_confirm_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xhdpi\\ic_confirm_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\anim_anim_enter_from_bottom.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\anim\\anim_enter_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-hdpi_ic_healthcare_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-hdpi\\ic_healthcare_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-mdpi_ic_medical_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-mdpi\\ic_medical_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-anydpi_ic_close_logo.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-anydpi\\ic_close_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-hdpi_ic_play_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-hdpi\\ic_play_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-anydpi_ic_alert_logo.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-anydpi\\ic_alert_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-anydpi_ic_search_logo.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-anydpi\\ic_search_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_fragment_anagrafica.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\fragment_anagrafica.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xxhdpi_ic_play_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xxhdpi\\ic_play_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_fragment_gestore_spesa.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\fragment_gestore_spesa.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xhdpi_ic_close_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xhdpi\\ic_close_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable_region_friuli_venezia_giulia.jpg.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable\\region_friuli_venezia_giulia.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable_region_lombardia.jpg.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable\\region_lombardia.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-anydpi_ic_calculate_logo.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-anydpi\\ic_calculate_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_fragment_personale_sanitario_modifica_status_p_s.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\fragment_personale_sanitario_modifica_status_p_s.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xxhdpi_ic_search_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xxhdpi\\ic_search_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_fragment_gestore_spesa_lista.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\fragment_gestore_spesa_lista.xml"
+    },
+    {
+        "merged": "it.uniba.dib.sms232412.app-merged_res-39:/mipmap-xxxhdpi_asilapp_launcher_foreground.webp.flat",
+        "source": "it.uniba.dib.sms232412.app-main-40:/mipmap-xxxhdpi/asilapp_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-mdpi_ic_location_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-mdpi\\ic_location_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\anim_anim_empty.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\anim\\anim_empty.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-anydpi_ic_video_logo.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-anydpi\\ic_video_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-mdpi_ic_alert_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-mdpi\\ic_alert_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\anim_anim_enter_from_top.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\anim\\anim_enter_from_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable_region_toscana.jpg.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable\\region_toscana.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xhdpi_ic_pause_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xhdpi\\ic_pause_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xhdpi_ic_alert_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xhdpi\\ic_alert_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xhdpi_ic_calendar_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xhdpi\\ic_calendar_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\anim_spese_anim_enter_from_right.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\anim\\spese_anim_enter_from_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\anim_anim_exit_to_bottom.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\anim\\anim_exit_to_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable_region_sardegna.jpg.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable\\region_sardegna.jpg"
+    },
+    {
+        "merged": "it.uniba.dib.sms232412.app-merged_res-39:/mipmap-mdpi_asilapp_launcher_foreground.webp.flat",
+        "source": "it.uniba.dib.sms232412.app-main-40:/mipmap-mdpi/asilapp_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-anydpi_ic_explore_logo.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-anydpi\\ic_explore_logo.xml"
+    },
+    {
+        "merged": "it.uniba.dib.sms232412.app-merged_res-39:/mipmap-xxxhdpi_asilapp_launcher.webp.flat",
+        "source": "it.uniba.dib.sms232412.app-main-40:/mipmap-xxxhdpi/asilapp_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_fragment_personale_sanitario_lista.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\fragment_personale_sanitario_lista.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_lista_richieste_per_diventare_ps_single_element_layout.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\lista_richieste_per_diventare_ps_single_element_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xxhdpi_ic_spesa_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xxhdpi\\ic_spesa_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xhdpi_ic_illness_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xhdpi\\ic_illness_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-hdpi_ic_video_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-hdpi\\ic_video_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-hdpi_ic_spesa_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-hdpi\\ic_spesa_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-anydpi_ic_calendar_logo.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-anydpi\\ic_calendar_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "it.uniba.dib.sms232412.app-merged_res-39:/mipmap-anydpi-v26_asilapp_launcher.xml.flat",
+        "source": "it.uniba.dib.sms232412.app-main-40:/mipmap-anydpi-v26/asilapp_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-anydpi_ic_add_logo.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-anydpi\\ic_add_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-hdpi_ic_user_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-hdpi\\ic_user_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xhdpi_ic_calculate_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xhdpi\\ic_calculate_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable_region_lazio.jpg.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable\\region_lazio.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xhdpi_ic_search_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xhdpi\\ic_search_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\anim_anim_exit_to_left.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\anim\\anim_exit_to_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\menu_menu_action_bar_admin.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\menu\\menu_action_bar_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xhdpi_ic_location_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xhdpi\\ic_location_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable_region_sicilia.jpg.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable\\region_sicilia.jpg"
+    },
+    {
+        "merged": "it.uniba.dib.sms232412.app-merged_res-39:/mipmap-xhdpi_asilapp_launcher_foreground.webp.flat",
+        "source": "it.uniba.dib.sms232412.app-main-40:/mipmap-xhdpi/asilapp_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-mdpi_ic_explore_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-mdpi\\ic_explore_logo.png"
+    },
+    {
+        "merged": "it.uniba.dib.sms232412.app-merged_res-39:/drawable_asilapp_icon.png.flat",
+        "source": "it.uniba.dib.sms232412.app-main-40:/drawable/asilapp_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-hdpi_ic_illness_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-hdpi\\ic_illness_logo.png"
+    },
+    {
+        "merged": "it.uniba.dib.sms232412.app-merged_res-39:/mipmap-xxhdpi_asilapp_launcher.webp.flat",
+        "source": "it.uniba.dib.sms232412.app-main-40:/mipmap-xxhdpi/asilapp_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xxhdpi_ic_location_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xxhdpi\\ic_location_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xxhdpi_ic_user_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xxhdpi\\ic_user_logo.png"
+    },
+    {
+        "merged": "it.uniba.dib.sms232412.app-merged_res-39:/mipmap-hdpi_asilapp_launcher_round.webp.flat",
+        "source": "it.uniba.dib.sms232412.app-main-40:/mipmap-hdpi/asilapp_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xxhdpi_ic_add_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xxhdpi\\ic_add_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\anim_anim_exit_to_top.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\anim\\anim_exit_to_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\menu_menu_action_bar.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\menu\\menu_action_bar.xml"
+    },
+    {
+        "merged": "it.uniba.dib.sms232412.app-merged_res-39:/mipmap-hdpi_asilapp_launcher_foreground.webp.flat",
+        "source": "it.uniba.dib.sms232412.app-main-40:/mipmap-hdpi/asilapp_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xhdpi_ic_user_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xhdpi\\ic_user_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-mdpi_ic_healthcare_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-mdpi\\ic_healthcare_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xxhdpi_ic_video_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xxhdpi\\ic_video_logo.png"
+    },
+    {
+        "merged": "it.uniba.dib.sms232412.app-merged_res-39:/mipmap-xhdpi_asilapp_launcher.webp.flat",
+        "source": "it.uniba.dib.sms232412.app-main-40:/mipmap-xhdpi/asilapp_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_fragment_login.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "it.uniba.dib.sms232412.app-merged_res-39:/mipmap-xxxhdpi_asilapp_launcher_round.webp.flat",
+        "source": "it.uniba.dib.sms232412.app-main-40:/mipmap-xxxhdpi/asilapp_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-mdpi_ic_close_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-mdpi\\ic_close_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-hdpi_ic_confirm_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-hdpi\\ic_confirm_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-mdpi_ic_search_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-mdpi\\ic_search_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_lista_ps_single_element_layout.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\lista_ps_single_element_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_fragment_info.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\fragment_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_activity_admin.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\activity_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable_region_piemonte.jpg.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable\\region_piemonte.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xhdpi_ic_spesa_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xhdpi\\ic_spesa_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_fragment_personale_sanitario_crea_richiesta.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\fragment_personale_sanitario_crea_richiesta.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable_region_val_d_aosta.jpg.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable\\region_val_d_aosta.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable_region_emilia_romagna.jpg.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable\\region_emilia_romagna.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\menu_menu_action_bar_medical.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\menu\\menu_action_bar_medical.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\anim_anim_enter_from_left.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\anim\\anim_enter_from_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable_region_liguria.jpg.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable\\region_liguria.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-hdpi_ic_explore_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-hdpi\\ic_explore_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\anim_spese_anim_exit_to_right.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\anim\\spese_anim_exit_to_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-xhdpi_ic_healthcare_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-xhdpi\\ic_healthcare_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable_region_basilicata.jpg.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable\\region_basilicata.jpg"
+    },
+    {
+        "merged": "it.uniba.dib.sms232412.app-merged_res-39:/layout_fragment_valigetta_step2_scegli_strumento.xml.flat",
+        "source": "it.uniba.dib.sms232412.app-main-40:/layout/fragment_valigetta_step2_scegli_strumento.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-mdpi_ic_calculate_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-mdpi\\ic_calculate_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-hdpi_ic_pause_logo.png.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-hdpi\\ic_pause_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_lista_malattie_ricerca_single_element_layout.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\lista_malattie_ricerca_single_element_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_fragment_register.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\fragment_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\layout_fragment_info_location.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\layout\\fragment_info_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\drawable-anydpi_ic_spesa_logo.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\drawable-anydpi\\ic_spesa_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-merged_res-39:\\anim_anim_exit_to_right.xml.flat",
+        "source": "C:\\Users\\Michele\\.gradle\\daemon\\8.2\\it.uniba.dib.sms232412.app-main-40:\\anim\\anim_exit_to_right.xml"
+    },
+    {
+        "merged": "it.uniba.dib.sms232412.app-merged_res-39:/mipmap-xhdpi_asilapp_launcher_round.webp.flat",
+        "source": "it.uniba.dib.sms232412.app-main-40:/mipmap-xhdpi/asilapp_launcher_round.webp"
+    }
+]

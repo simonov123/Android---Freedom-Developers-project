@@ -28,7 +28,6 @@ public class ListaCercaMalattieAdapter extends BaseAdapter {
 
     final private String[] listaMalattie;
     final private String[] listaDescrizioneMalattie;
-    final private String[] listaConsigliMalattie;
     final private String[] listaURLVideoMalattie;
     final private MainActivity context;
     final private MalattieFragment parentFragment;
@@ -36,13 +35,12 @@ public class ListaCercaMalattieAdapter extends BaseAdapter {
     final private DatabaseReference dbRootMalattieUtente;
 
     public ListaCercaMalattieAdapter(@NonNull MainActivity context, @NonNull MalattieFragment parentFragment, int layout_single_line, String[] listaMalattie,
-                                     String[] listaDescrizioneMalattie, String[] listaConsigliMalattie, String[] listaURLVideoMalattie){
+                                     String[] listaDescrizioneMalattie, String[] listaURLVideoMalattie){
         this.context = context;
         this.parentFragment = parentFragment;
         this.layout_single_line = layout_single_line;
         this.listaMalattie = listaMalattie;
         this.listaDescrizioneMalattie = listaDescrizioneMalattie;
-        this.listaConsigliMalattie = listaConsigliMalattie;
         this.listaURLVideoMalattie = listaURLVideoMalattie;
         dbRootMalattieUtente = FirebaseDatabase.getInstance().getReference("Utenti").child(context.getUserUid()).child("malattie");
     }
@@ -99,7 +97,39 @@ public class ListaCercaMalattieAdapter extends BaseAdapter {
         // Gestione del tasto aggiungi malattia
         ImageButton confirmBtn = convertView.findViewById(R.id.btn_confirm);
         confirmBtn.setOnClickListener(v -> {
-            DatabaseReference dbRootMalattiaSpecifica = dbRootMalattieUtente.child(nomeMalattia);
+            DatabaseReference dbRootMalattiaSpecifica;
+            /**
+             * Il percorso nel db su Firebase è registrato nella lingua italiana, a prescindere dalla lingua del device
+             */
+            if(getCount() == 3){
+                switch(position){
+                    case 0:
+                        dbRootMalattiaSpecifica = dbRootMalattieUtente.child("FEBBRE ALTA");
+                        break;
+                    case 1:
+                        dbRootMalattiaSpecifica = dbRootMalattieUtente.child("IPERTENSIONE");
+                        break;
+                    default:
+                        dbRootMalattiaSpecifica = dbRootMalattieUtente.child("TACHICARDIA");
+                        break;
+                }
+            } else {
+                switch(position){
+                    case 0:
+                        dbRootMalattiaSpecifica = dbRootMalattieUtente.child("FEBBRE ALTA");
+                        break;
+                    case 1:
+                        dbRootMalattiaSpecifica = dbRootMalattieUtente.child("SEPSI PUERPERALE");
+                        break;
+                    case 2:
+                        dbRootMalattiaSpecifica = dbRootMalattieUtente.child("IPERTENSIONE");
+                        break;
+                    default:
+                        dbRootMalattiaSpecifica = dbRootMalattieUtente.child("TACHICARDIA");
+                        break;
+                }
+            }
+
             dbRootMalattiaSpecifica.addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -110,7 +140,7 @@ public class ListaCercaMalattieAdapter extends BaseAdapter {
                         builder.setTitle(context.getString(R.string.malattie_confermare_malattia, nomeMalattia))
                                 .setMessage(listaDescrizioneMalattie[position])
                                 .setPositiveButton(R.string.option_menu_yes, (dialog, which) -> {
-                                    dbRootMalattiaSpecifica.setValue(listaConsigliMalattie[position]);
+                                    dbRootMalattiaSpecifica.setValue(true);
                                     Toast.makeText(context, context.getString(R.string.malattie_aggiunta_con_successo), Toast.LENGTH_SHORT).show();
                                     parentFragment.updateMieMalattie();
                                 })

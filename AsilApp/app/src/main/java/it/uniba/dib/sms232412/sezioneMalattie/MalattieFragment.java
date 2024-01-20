@@ -53,13 +53,12 @@ public class MalattieFragment extends Fragment {
 
         // Creo la lista per ricercare le malattie
         ListView listCercaMalattie = view.findViewById(R.id.lista_cerca_malattie);
-        String[] listaMalattie, listaDescrizioni, listaConsigli, urlVideo;
+        String[] listaMalattie, listaDescrizioni, urlVideo;
 
         // In base al sesso dell'utente uso una lista di malattie differente
         if(parentActivity.getUserSesso().equals("M")){
             listaMalattie = getResources().getStringArray(R.array.malattie_maschili_lista);
             listaDescrizioni = getResources().getStringArray(R.array.malattie_maschili_lista_descrizioni);
-            listaConsigli = getResources().getStringArray(R.array.malattie_maschili_lista_consigli);
             urlVideo = new String[]{
                     // Febbre
                     "https://firebasestorage.googleapis.com/v0/b/freedomdev-asilapp-2324.appspot.com/o/febbre.mp4?alt=media&token=d575b420-ce69-4edc-839b-793915995aa5",
@@ -71,7 +70,6 @@ public class MalattieFragment extends Fragment {
         } else {
             listaMalattie = getResources().getStringArray(R.array.malattie_femminili_lista);
             listaDescrizioni = getResources().getStringArray(R.array.malattie_femminili_lista_descrizioni);
-            listaConsigli = getResources().getStringArray(R.array.malattie_femminili_lista_consigli);
             urlVideo = new String[]{
                     // Febbre
                     "https://firebasestorage.googleapis.com/v0/b/freedomdev-asilapp-2324.appspot.com/o/febbre.mp4?alt=media&token=d575b420-ce69-4edc-839b-793915995aa5",
@@ -85,7 +83,7 @@ public class MalattieFragment extends Fragment {
         }
 
         ListaCercaMalattieAdapter adapter = new ListaCercaMalattieAdapter(parentActivity, thisFragment, R.layout.lista_malattie_ricerca_single_element_layout,
-                listaMalattie, listaDescrizioni, listaConsigli, urlVideo);
+                listaMalattie, listaDescrizioni, urlVideo);
         listCercaMalattie.setAdapter(adapter);
     }
 
@@ -94,7 +92,7 @@ public class MalattieFragment extends Fragment {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 List<String> myListaMalattie = new ArrayList<>();
-                List<String> myListaSuggerimenti = new ArrayList<>();
+                //List<String> myListaSuggerimenti = new ArrayList<>();
                 if(snapshot.exists()){
                     // Rendo visibile la lista delle malattie personali
                     titleMieMalattie.setVisibility(View.VISIBLE);
@@ -103,23 +101,22 @@ public class MalattieFragment extends Fragment {
                     // Riempio la lista delle malattie registrate con i rispettivi suggerimenti
                     for(DataSnapshot childSnapshot : snapshot.getChildren()){
                         myListaMalattie.add(childSnapshot.getKey());
-                        myListaSuggerimenti.add(childSnapshot.getValue(String.class));
                     }
 
                     // Inizializzo/Aggiorno l'adapter per la lista delle malattie personali
                     if(personalAdapter == null){
                         personalAdapter = new ListaMieMalattieAdapter(parentActivity, thisFragment, R.layout.lista_malattie_personali_single_element_layout,
-                                myListaMalattie, myListaSuggerimenti);
+                                myListaMalattie);
                         listaMieMalattie.setAdapter(personalAdapter);
                     } else {
-                        personalAdapter.rimpiazzaLista(myListaMalattie, myListaSuggerimenti);
+                        personalAdapter.rimpiazzaLista(myListaMalattie);
                     }
                 } else {
                     // Rendo invisibile la lista delle malattie personali
                     titleMieMalattie.setVisibility(View.GONE);
                     listaMieMalattie.setVisibility(View.GONE);
                     if(personalAdapter != null){
-                        personalAdapter.rimpiazzaLista(myListaMalattie, myListaSuggerimenti);
+                        personalAdapter.rimpiazzaLista(myListaMalattie);
                     }
                 }
             }
