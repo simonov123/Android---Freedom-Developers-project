@@ -99,7 +99,11 @@ public class PersonaleSanitarioListaFragment extends Fragment {
             }
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                adapter.filterText(s.toString(), checkEveryRegion.isChecked(), region);
+                if(region.equals("Nessuna")){
+                    adapter.filterText(s.toString(), true, region);
+                } else {
+                    adapter.filterText(s.toString(), checkEveryRegion.isChecked(), region);
+                }
             }
             @Override
             public void afterTextChanged(Editable s) {

@@ -340,6 +340,13 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
                     activateGps(); //se non ho il gps attivato, vado all'attivazione
                     getRegion();
                     callMaps();
+                } else {
+                    //mostro un banner per informare l'utente che serve dare il permesso
+                    new AlertDialog.Builder(this)
+                            .setTitle(R.string.info_btn_search_for_region_denied_title)
+                            .setMessage(R.string.info_btn_search_for_region_denied_msg)
+                            .setPositiveButton(R.string.permission_ok, (dialog, which) -> {})
+                            .show();
                 }
                 break;
         }
